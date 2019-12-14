@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS1298IPAG
+D Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements
+K EEG
+$ENDCMP
+#
+#End Doc Library
