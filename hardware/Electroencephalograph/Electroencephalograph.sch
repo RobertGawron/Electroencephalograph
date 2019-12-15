@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -25,5 +25,11 @@ S 3200 4400 500  150
 U 5DF61103
 F0 "EEGAcquisition" 50
 F1 "EEGAcquisition.sch" 50
+$EndSheet
+$Sheet
+S 4350 4400 500  150 
+U 5E142744
+F0 "EEGDataProcessing" 50
+F1 "EEGDataProcessing.sch" 50
 $EndSheet
 $EndSCHEMATC
