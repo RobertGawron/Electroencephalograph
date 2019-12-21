@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -515,17 +515,6 @@ Connection ~ 4250 2250
 Wire Wire Line
 	4250 2250 4450 2250
 $Comp
-L Device:LED D20
-U 1 1 5E0FF9B1
-P 5700 4100
-F 0 "D20" H 5550 4200 50  0000 C CNN
-F 1 "LED" H 5750 4200 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 5700 4100 50  0001 C CNN
-F 3 "~" H 5700 4100 50  0001 C CNN
-	1    5700 4100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:LED D19
 U 1 1 5E100F32
 P 5700 3800
@@ -612,20 +601,6 @@ F 3 "~" H 5300 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 5E10C2CB
-P 5300 4100
-AR Path="/5E10C2CB" Ref="R?"  Part="1" 
-AR Path="/5DF4CFF8/5E10C2CB" Ref="R?"  Part="1" 
-AR Path="/5DF61103/5E10C2CB" Ref="R36"  Part="1" 
-F 0 "R36" V 5093 4100 50  0000 C CNN
-F 1 "220R" V 5184 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5230 4100 50  0001 C CNN
-F 3 "~" H 5300 4100 50  0001 C CNN
-	1    5300 4100
-	0    1    1    0   
-$EndComp
-$Comp
 L Electroencephalograph:D_GND #PWR67
 U 1 1 5E10C764
 P 6150 3550
@@ -647,17 +622,6 @@ F 3 "" H 6150 3875 50  0001 C CNN
 	1    6150 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Electroencephalograph:D_GND #PWR69
-U 1 1 5E10CCA3
-P 6150 4150
-F 0 "#PWR69" H 6150 4175 50  0001 C CNN
-F 1 "D_GND" H 6167 3977 50  0000 C CNN
-F 2 "" H 6150 4175 50  0001 C CNN
-F 3 "" H 6150 4175 50  0001 C CNN
-	1    6150 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 3200 5550 3200
 Wire Wire Line
@@ -676,12 +640,6 @@ Wire Wire Line
 	5850 3800 6150 3800
 Wire Wire Line
 	6150 3800 6150 3850
-Wire Wire Line
-	5450 4100 5550 4100
-Wire Wire Line
-	5850 4100 6150 4100
-Wire Wire Line
-	6150 4100 6150 4150
 Wire Wire Line
 	4150 3800 4800 3800
 Wire Wire Line
@@ -704,8 +662,6 @@ Wire Wire Line
 	4150 4200 5100 4200
 Wire Wire Line
 	5100 4200 5100 4100
-Wire Wire Line
-	5100 4100 5150 4100
 Text GLabel 4900 4650 2    50   Output ~ 0
 SPI_CLK
 Text GLabel 4900 4750 2    50   Output ~ 0
@@ -723,27 +679,27 @@ POWER_DOWN
 $Comp
 L Device:C C?
 U 1 1 5E1499A4
-P 3400 6800
+P 3500 6800
 AR Path="/5DF4CFF8/5E1499A4" Ref="C?"  Part="1" 
 AR Path="/5DF61103/5E1499A4" Ref="C38"  Part="1" 
-F 0 "C38" H 3515 6846 50  0000 L CNN
-F 1 "100n" H 3515 6755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3438 6650 50  0001 C CNN
-F 3 "~" H 3400 6800 50  0001 C CNN
-	1    3400 6800
+F 0 "C38" H 3615 6846 50  0000 L CNN
+F 1 "100n" H 3615 6755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 6650 50  0001 C CNN
+F 3 "~" H 3500 6800 50  0001 C CNN
+	1    3500 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C?
 U 1 1 5E149E75
-P 3050 6800
+P 3150 6800
 AR Path="/5DF4CFF8/5E149E75" Ref="C?"  Part="1" 
 AR Path="/5DF61103/5E149E75" Ref="C37"  Part="1" 
-F 0 "C37" H 3167 6846 50  0000 L CNN
-F 1 "10u" H 3167 6755 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 3088 6650 50  0001 C CNN
-F 3 "~" H 3050 6800 50  0001 C CNN
-	1    3050 6800
+F 0 "C37" H 3267 6846 50  0000 L CNN
+F 1 "10u" H 3267 6755 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 3188 6650 50  0001 C CNN
+F 3 "~" H 3150 6800 50  0001 C CNN
+	1    3150 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -760,13 +716,13 @@ $EndComp
 Wire Wire Line
 	3050 5300 3050 5350
 Wire Wire Line
-	3400 6550 3400 6650
+	3500 6550 3500 6650
 Wire Wire Line
 	3350 5300 3350 5750
 Wire Wire Line
 	3150 5300 3150 5750
 Wire Wire Line
-	3050 6550 3050 6650
+	3150 6550 3150 6650
 Wire Wire Line
 	3250 5300 3250 5400
 Wire Wire Line
@@ -776,29 +732,29 @@ NoConn ~ 3450 5400
 $Comp
 L Electroencephalograph:A_VSS #PWR70
 U 1 1 5E1AAFE9
-P 3400 7000
-F 0 "#PWR70" H 3400 7000 50  0001 C CNN
-F 1 "A_VSS" H 3418 7173 50  0000 C CNN
-F 2 "" H 3400 7000 50  0001 C CNN
-F 3 "" H 3400 7000 50  0001 C CNN
-	1    3400 7000
+P 3500 7000
+F 0 "#PWR70" H 3500 7000 50  0001 C CNN
+F 1 "A_VSS" H 3518 7173 50  0000 C CNN
+F 2 "" H 3500 7000 50  0001 C CNN
+F 3 "" H 3500 7000 50  0001 C CNN
+	1    3500 7000
 	-1   0    0    1   
 $EndComp
 $Comp
 L Electroencephalograph:A_VSS #PWR65
 U 1 1 5E1AB505
-P 3050 7000
-F 0 "#PWR65" H 3050 7000 50  0001 C CNN
-F 1 "A_VSS" H 3068 7173 50  0000 C CNN
-F 2 "" H 3050 7000 50  0001 C CNN
-F 3 "" H 3050 7000 50  0001 C CNN
-	1    3050 7000
+P 3150 7000
+F 0 "#PWR65" H 3150 7000 50  0001 C CNN
+F 1 "A_VSS" H 3168 7173 50  0000 C CNN
+F 2 "" H 3150 7000 50  0001 C CNN
+F 3 "" H 3150 7000 50  0001 C CNN
+	1    3150 7000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3400 7000 3400 6950
+	3500 7000 3500 6950
 Wire Wire Line
-	3050 7000 3050 6950
+	3150 7000 3150 6950
 Wire Wire Line
 	3650 5300 3650 5400
 NoConn ~ 3650 5400
@@ -1004,28 +960,6 @@ Wire Wire Line
 	4150 4300 5400 4300
 Wire Wire Line
 	5400 4300 5400 4350
-$Comp
-L Connector:TestPoint_Alt TP1
-U 1 1 5E2F9E37
-P 1250 5850
-F 0 "TP1" V 1350 6250 50  0000 C CNN
-F 1 "TestPoint_Alt" V 1250 6300 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 1450 5850 50  0001 C CNN
-F 3 "~" H 1450 5850 50  0001 C CNN
-	1    1250 5850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint_Alt TP2
-U 1 1 5E2FAD46
-P 1250 6000
-F 0 "TP2" V 1300 6350 50  0000 L CNN
-F 1 "TestPoint_Alt" V 1205 6187 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 1450 6000 50  0001 C CNN
-F 3 "~" H 1450 6000 50  0001 C CNN
-	1    1250 6000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2250 5300 2250 5850
 Wire Wire Line
@@ -1560,13 +1494,13 @@ Connection ~ 10650 1450
 Wire Wire Line
 	10650 1450 10850 1450
 Wire Wire Line
-	2950 6550 3050 6550
-Connection ~ 3050 6550
+	2950 6550 3150 6550
+Connection ~ 3150 6550
 Wire Wire Line
-	3050 6550 3400 6550
+	3150 6550 3500 6550
 Wire Wire Line
-	3400 6550 3650 6550
-Connection ~ 3400 6550
+	3500 6550 3750 6550
+Connection ~ 3500 6550
 Wire Wire Line
 	4150 4800 4600 4800
 Wire Wire Line
@@ -1606,8 +1540,74 @@ Text Label 8800 3750 0    50   ~ 0
 CLK
 Text Label 4400 5550 0    50   ~ 0
 CLK
-Text Label 3650 6550 0    50   ~ 0
+Text Label 3750 6550 0    50   ~ 0
 V_REF
 Wire Wire Line
 	2850 5300 2850 6750
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E170075
+P 1250 5850
+F 0 "TP1" V 1300 6250 50  0000 C CNN
+F 1 "TestPoint" V 1250 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 1450 5850 50  0001 C CNN
+F 3 "~" H 1450 5850 50  0001 C CNN
+	1    1250 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E19AC83
+P 1250 6000
+F 0 "TP2" V 1300 6400 50  0000 C CNN
+F 1 "TestPoint" V 1250 6400 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 1450 6000 50  0001 C CNN
+F 3 "~" H 1450 6000 50  0001 C CNN
+	1    1250 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 4100 5150 4100
+Wire Wire Line
+	6150 4100 6150 4150
+Wire Wire Line
+	5850 4100 6150 4100
+Wire Wire Line
+	5450 4100 5550 4100
+$Comp
+L Electroencephalograph:D_GND #PWR69
+U 1 1 5E10CCA3
+P 6150 4150
+F 0 "#PWR69" H 6150 4175 50  0001 C CNN
+F 1 "D_GND" H 6167 3977 50  0000 C CNN
+F 2 "" H 6150 4175 50  0001 C CNN
+F 3 "" H 6150 4175 50  0001 C CNN
+	1    6150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E10C2CB
+P 5300 4100
+AR Path="/5E10C2CB" Ref="R?"  Part="1" 
+AR Path="/5DF4CFF8/5E10C2CB" Ref="R?"  Part="1" 
+AR Path="/5DF61103/5E10C2CB" Ref="R36"  Part="1" 
+F 0 "R36" V 5093 4100 50  0000 C CNN
+F 1 "220R" V 5184 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5230 4100 50  0001 C CNN
+F 3 "~" H 5300 4100 50  0001 C CNN
+	1    5300 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D20
+U 1 1 5E0FF9B1
+P 5700 4100
+F 0 "D20" H 5550 4200 50  0000 C CNN
+F 1 "LED" H 5750 4200 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5700 4100 50  0001 C CNN
+F 3 "~" H 5700 4100 50  0001 C CNN
+	1    5700 4100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
