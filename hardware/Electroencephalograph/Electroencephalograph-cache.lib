@@ -254,6 +254,25 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Jumper_NC_Small
+#
+DEF Device_Jumper_NC_Small JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Device_Jumper_NC_Small" 10 -60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+$ENDFPLIST
+DRAW
+A 0 -10 57 450 1350 0 1 0 N 40 30 -40 30
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+X 1 1 -100 0 40 R 50 50 0 1 P
+X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_Jumper_NO_Small
 #
 DEF Device_Jumper_NO_Small JP 0 30 N N 1 F N
@@ -388,6 +407,34 @@ X IN4N 9 -50 -950 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Electroencephalograph_ADUM2401BRWZ
+#
+DEF Electroencephalograph_ADUM2401BRWZ U 0 40 Y Y 1 F N
+F0 "U" 0 75 50 H V C CNN
+F1 "Electroencephalograph_ADUM2401BRWZ" 0 0 50 H V C CNN
+F2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -300 -100 250 -900 0 1 0 f
+X Vdd1 1 -400 -150 100 R 50 50 1 1 I
+X VE2 10 350 -750 100 L 50 50 1 1 I
+X VID 11 350 -650 100 L 50 50 1 1 I
+X VOC 12 350 -550 100 L 50 50 1 1 I
+X VOB 13 350 -450 100 L 50 50 1 1 I
+X VOA 14 350 -350 100 L 50 50 1 1 I
+X GND2 15 350 -250 100 L 50 50 1 1 I
+X Vdd2 16 350 -150 100 L 50 50 1 1 I
+X GND1 2 -400 -250 100 R 50 50 1 1 I
+X VIA 3 -400 -350 100 R 50 50 1 1 I
+X VIB 4 -400 -450 100 R 50 50 1 1 I
+X VIC 5 -400 -550 100 R 50 50 1 1 I
+X VOD 6 -400 -650 100 R 50 50 1 1 I
+X VE1 7 -400 -750 100 R 50 50 1 1 I
+X GND1 8 -400 -850 100 R 50 50 1 1 I
+X GND2 9 350 -850 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Electroencephalograph_A_GND
 #
 DEF Electroencephalograph_A_GND #PWR 0 0 Y Y 1 F N
@@ -426,6 +473,34 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 1 1 0 0 0 0 50 N
 P 5 1 1 0 0 50 25 50 0 100 -25 50 0 50 N
+X VDDA 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Electroencephalograph_DP_GND
+#
+DEF Electroencephalograph_DP_GND #PWR 0 0 Y Y 1 F N
+F0 "#PWR" 0 25 50 H I C CNN
+F1 "Electroencephalograph_DP_GND" 0 -150 50 H V C CNN
+F2 "" 0 25 50 H I C CNN
+F3 "" 0 25 50 H I C CNN
+DRAW
+P 2 1 1 0 0 0 0 -50 N
+P 5 1 1 0 0 -50 -25 -50 0 -100 25 -50 0 -50 F
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Electroencephalograph_DP_VDD
+#
+DEF Electroencephalograph_DP_VDD #PWR 0 0 Y Y 1 F N
+F0 "#PWR" 0 125 50 H I C CNN
+F1 "Electroencephalograph_DP_VDD" 0 125 50 H V C CNN
+F2 "" 0 125 50 H I C CNN
+F3 "" 0 125 50 H I C CNN
+DRAW
+P 2 1 1 0 0 0 0 50 N
+P 5 1 1 0 0 50 25 50 0 100 -25 50 0 50 F
 X VDDA 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
