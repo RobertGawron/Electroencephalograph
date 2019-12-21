@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -37,5 +37,11 @@ S 4050 1600 500  150
 U 5DFE0AD6
 F0 "Isolation" 50
 F1 "Isolation.sch" 50
+$EndSheet
+$Sheet
+S 2050 2350 500  150 
+U 5E0992D6
+F0 "EEGPowerSupply" 50
+F1 "EEGPowerSupply.sch" 50
 $EndSheet
 $EndSCHEMATC
