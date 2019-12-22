@@ -1,0 +1,865 @@
+EESchema Schematic File Version 4
+LIBS:Electroencephalograph-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Electroencephalograph:TPS60403 U?
+U 1 1 5E0A0C58
+P 5050 5650
+AR Path="/5DFE0AD6/5E0A0C58" Ref="U?"  Part="1" 
+AR Path="/5E0992D6/5E0A0C58" Ref="U11"  Part="1" 
+F 0 "U11" H 3550 5800 50  0000 L CNN
+F 1 "TPS60403" H 3550 5700 50  0000 L CNN
+F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 5050 5650 50  0001 C CNN
+F 3 "" H 5050 5650 50  0001 C CNN
+	1    5050 5650
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0A0C5E
+P 3850 5200
+AR Path="/5DF4CFF8/5E0A0C5E" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0A0C5E" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0A0C5E" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0A0C5E" Ref="C70"  Part="1" 
+F 0 "C70" H 3965 5246 50  0000 L CNN
+F 1 "1u" H 3965 5155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3888 5050 50  0001 C CNN
+F 3 "~" H 3850 5200 50  0001 C CNN
+	1    3850 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0A0C64
+P 3300 5900
+AR Path="/5DF4CFF8/5E0A0C64" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0A0C64" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0A0C64" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0A0C64" Ref="C65"  Part="1" 
+F 0 "C65" V 3048 5900 50  0000 C CNN
+F 1 "1u" V 3139 5900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3338 5750 50  0001 C CNN
+F 3 "~" H 3300 5900 50  0001 C CNN
+	1    3300 5900
+	0    1    -1   0   
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0A0C6A
+P 3300 5000
+AR Path="/5DFE0AD6/5E0A0C6A" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0A0C6A" Ref="#PWR115"  Part="1" 
+F 0 "#PWR115" H 3300 5025 50  0001 C CNN
+F 1 "A_GND" H 3317 4827 50  0000 C CNN
+F 2 "" H 3300 5025 50  0001 C CNN
+F 3 "" H 3300 5025 50  0001 C CNN
+	1    3300 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3150 5900 3050 5900
+Wire Wire Line
+	3050 5900 3050 5750
+Wire Wire Line
+	3050 5750 3250 5750
+Wire Wire Line
+	3250 5750 3250 5700
+Wire Wire Line
+	3450 5900 3550 5900
+Wire Wire Line
+	3550 5900 3550 5750
+Wire Wire Line
+	3550 5750 3350 5750
+Wire Wire Line
+	3350 5750 3350 5700
+Wire Wire Line
+	2900 5500 2700 5500
+Wire Wire Line
+	3750 5500 3850 5500
+Wire Wire Line
+	3850 5500 3850 5350
+Wire Wire Line
+	3300 5000 3300 5050
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0A0C7C
+P 3850 5000
+AR Path="/5DFE0AD6/5E0A0C7C" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0A0C7C" Ref="#PWR116"  Part="1" 
+F 0 "#PWR116" H 3850 5025 50  0001 C CNN
+F 1 "A_GND" H 3867 4827 50  0000 C CNN
+F 2 "" H 3850 5025 50  0001 C CNN
+F 3 "" H 3850 5025 50  0001 C CNN
+	1    3850 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3850 5000 3850 5050
+Wire Wire Line
+	2700 5500 2700 5400
+Wire Wire Line
+	2700 5000 2700 5100
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0A0C8E
+P 2700 5000
+AR Path="/5DFE0AD6/5E0A0C8E" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0A0C8E" Ref="#PWR114"  Part="1" 
+F 0 "#PWR114" H 2700 5025 50  0001 C CNN
+F 1 "A_GND" H 2717 4827 50  0000 C CNN
+F 2 "" H 2700 5025 50  0001 C CNN
+F 3 "" H 2700 5025 50  0001 C CNN
+	1    2700 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0A0C94
+P 2700 5250
+AR Path="/5DF4CFF8/5E0A0C94" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0A0C94" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0A0C94" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0A0C94" Ref="C68"  Part="1" 
+F 0 "C68" H 2815 5296 50  0000 L CNN
+F 1 "1u" H 2815 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2738 5100 50  0001 C CNN
+F 3 "~" H 2700 5250 50  0001 C CNN
+	1    2700 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E0A0C9A
+P 2400 5250
+AR Path="/5DF4CFF8/5E0A0C9A" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0A0C9A" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0A0C9A" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0A0C9A" Ref="C67"  Part="1" 
+F 0 "C67" H 2282 5296 50  0000 R CNN
+F 1 "22u" H 2282 5205 50  0000 R CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 2438 5100 50  0001 C CNN
+F 3 "~" H 2400 5250 50  0001 C CNN
+	1    2400 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E0A0CA0
+P 4400 5200
+AR Path="/5DF4CFF8/5E0A0CA0" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0A0CA0" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0A0CA0" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0A0CA0" Ref="C71"  Part="1" 
+F 0 "C71" H 4518 5246 50  0000 L CNN
+F 1 "22u" H 4518 5155 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 4438 5050 50  0001 C CNN
+F 3 "~" H 4400 5200 50  0001 C CNN
+	1    4400 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0A0CA6
+P 2400 5000
+AR Path="/5DFE0AD6/5E0A0CA6" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0A0CA6" Ref="#PWR113"  Part="1" 
+F 0 "#PWR113" H 2400 5025 50  0001 C CNN
+F 1 "A_GND" H 2417 4827 50  0000 C CNN
+F 2 "" H 2400 5025 50  0001 C CNN
+F 3 "" H 2400 5025 50  0001 C CNN
+	1    2400 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2400 5000 2400 5100
+Wire Wire Line
+	2400 5400 2400 5500
+Wire Wire Line
+	2400 5500 2700 5500
+Connection ~ 2700 5500
+Wire Wire Line
+	4400 5500 4400 5350
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0A0CB3
+P 4400 5000
+AR Path="/5DFE0AD6/5E0A0CB3" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0A0CB3" Ref="#PWR117"  Part="1" 
+F 0 "#PWR117" H 4400 5025 50  0001 C CNN
+F 1 "A_GND" H 4417 4827 50  0000 C CNN
+F 2 "" H 4400 5025 50  0001 C CNN
+F 3 "" H 4400 5025 50  0001 C CNN
+	1    4400 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4400 5000 4400 5050
+$Comp
+L Device:C C?
+U 1 1 5E0A0CC0
+P 6550 5250
+AR Path="/5DF4CFF8/5E0A0CC0" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0A0CC0" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0A0CC0" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0A0CC0" Ref="C69"  Part="1" 
+F 0 "C69" H 6665 5296 50  0000 L CNN
+F 1 "1u" H 6665 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6588 5100 50  0001 C CNN
+F 3 "~" H 6550 5250 50  0001 C CNN
+	1    6550 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0A0CCD
+P 6550 5000
+AR Path="/5DFE0AD6/5E0A0CCD" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0A0CCD" Ref="#PWR120"  Part="1" 
+F 0 "#PWR120" H 6550 5025 50  0001 C CNN
+F 1 "A_GND" H 6567 4827 50  0000 C CNN
+F 2 "" H 6550 5025 50  0001 C CNN
+F 3 "" H 6550 5025 50  0001 C CNN
+	1    6550 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6550 5000 6550 5100
+Wire Wire Line
+	4400 5500 5350 5500
+Connection ~ 4400 5500
+Wire Wire Line
+	6550 5500 6550 5400
+$Comp
+L Device:C C?
+U 1 1 5E0A0CD8
+P 5350 5200
+AR Path="/5DF4CFF8/5E0A0CD8" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0A0CD8" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0A0CD8" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0A0CD8" Ref="C72"  Part="1" 
+F 0 "C72" H 5465 5246 50  0000 L CNN
+F 1 "1u" H 5465 5155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 5050 50  0001 C CNN
+F 3 "~" H 5350 5200 50  0001 C CNN
+	1    5350 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0A0CDE
+P 5350 5000
+AR Path="/5DFE0AD6/5E0A0CDE" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0A0CDE" Ref="#PWR118"  Part="1" 
+F 0 "#PWR118" H 5350 5025 50  0001 C CNN
+F 1 "A_GND" H 5367 4827 50  0000 C CNN
+F 2 "" H 5350 5025 50  0001 C CNN
+F 3 "" H 5350 5025 50  0001 C CNN
+	1    5350 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5350 5000 5350 5050
+Wire Wire Line
+	5350 5350 5350 5500
+Text GLabel 1850 2050 0    50   Input ~ 0
+ECC_POWER_SUPPLY
+$Comp
+L Device:C C?
+U 1 1 5E0A4AC7
+P 6550 4100
+AR Path="/5DF4CFF8/5E0A4AC7" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0A4AC7" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0A4AC7" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0A4AC7" Ref="C63"  Part="1" 
+F 0 "C63" H 6665 4146 50  0000 L CNN
+F 1 "1u" H 6665 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6588 3950 50  0001 C CNN
+F 3 "~" H 6550 4100 50  0001 C CNN
+	1    6550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0A4AD4
+P 6550 4350
+AR Path="/5DFE0AD6/5E0A4AD4" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0A4AD4" Ref="#PWR112"  Part="1" 
+F 0 "#PWR112" H 6550 4375 50  0001 C CNN
+F 1 "A_GND" H 6567 4177 50  0000 C CNN
+F 2 "" H 6550 4375 50  0001 C CNN
+F 3 "" H 6550 4375 50  0001 C CNN
+	1    6550 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4350 6550 4250
+Wire Wire Line
+	6550 3850 6550 3950
+$Comp
+L Device:C C?
+U 1 1 5E0A4ADE
+P 5350 4150
+AR Path="/5DF4CFF8/5E0A4ADE" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0A4ADE" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0A4ADE" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0A4ADE" Ref="C64"  Part="1" 
+F 0 "C64" H 5465 4196 50  0000 L CNN
+F 1 "1u" H 5465 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 4000 50  0001 C CNN
+F 3 "~" H 5350 4150 50  0001 C CNN
+	1    5350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0A4AE4
+P 5350 4350
+AR Path="/5DFE0AD6/5E0A4AE4" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0A4AE4" Ref="#PWR110"  Part="1" 
+F 0 "#PWR110" H 5350 4375 50  0001 C CNN
+F 1 "A_GND" H 5367 4177 50  0000 C CNN
+F 2 "" H 5350 4375 50  0001 C CNN
+F 3 "" H 5350 4375 50  0001 C CNN
+	1    5350 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4350 5350 4300
+Wire Wire Line
+	5350 4000 5350 3850
+Wire Wire Line
+	1850 2050 2050 2050
+Wire Wire Line
+	2050 5500 2400 5500
+Connection ~ 2400 5500
+Wire Wire Line
+	2050 3850 5350 3850
+Connection ~ 2050 3850
+Wire Wire Line
+	2050 3850 2050 5500
+$Comp
+L Device:C C?
+U 1 1 5E0C8079
+P 7550 4650
+AR Path="/5DF4CFF8/5E0C8079" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0C8079" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0C8079" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0C8079" Ref="C57"  Part="1" 
+F 0 "C57" H 7665 4696 50  0000 L CNN
+F 1 "1u" H 7665 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7588 4500 50  0001 C CNN
+F 3 "~" H 7550 4650 50  0001 C CNN
+	1    7550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3850 7550 4500
+Wire Wire Line
+	7550 5500 7550 4800
+$Comp
+L Device:C C?
+U 1 1 5E0C9776
+P 8000 4650
+AR Path="/5DF4CFF8/5E0C9776" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0C9776" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0C9776" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0C9776" Ref="C58"  Part="1" 
+F 0 "C58" H 8115 4696 50  0000 L CNN
+F 1 "100n" H 8115 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8038 4500 50  0001 C CNN
+F 3 "~" H 8000 4650 50  0001 C CNN
+	1    8000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5E0CB150
+P 6850 3850
+AR Path="/5DFE0AD6/5E0CB150" Ref="L?"  Part="1" 
+AR Path="/5E0992D6/5E0CB150" Ref="L2"  Part="1" 
+F 0 "L2" V 7040 3850 50  0000 C CNN
+F 1 "3u3" V 6949 3850 50  0000 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 6850 3850 50  0001 C CNN
+F 3 "~" H 6850 3850 50  0001 C CNN
+	1    6850 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0CDD1B
+P 7100 4100
+AR Path="/5DF4CFF8/5E0CDD1B" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0CDD1B" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0CDD1B" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0CDD1B" Ref="C55"  Part="1" 
+F 0 "C55" H 7215 4146 50  0000 L CNN
+F 1 "100n" H 7215 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7138 3950 50  0001 C CNN
+F 3 "~" H 7100 4100 50  0001 C CNN
+	1    7100 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3850 6700 3850
+Connection ~ 6550 3850
+Wire Wire Line
+	7000 3850 7100 3850
+Wire Wire Line
+	7100 3850 7100 3950
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0CF637
+P 7100 4350
+AR Path="/5DFE0AD6/5E0CF637" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0CF637" Ref="#PWR102"  Part="1" 
+F 0 "#PWR102" H 7100 4375 50  0001 C CNN
+F 1 "A_GND" H 7117 4177 50  0000 C CNN
+F 2 "" H 7100 4375 50  0001 C CNN
+F 3 "" H 7100 4375 50  0001 C CNN
+	1    7100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4350 7100 4250
+Wire Wire Line
+	7100 3850 7550 3850
+Connection ~ 7100 3850
+$Comp
+L Device:L L?
+U 1 1 5E0D8986
+P 6850 5500
+AR Path="/5DFE0AD6/5E0D8986" Ref="L?"  Part="1" 
+AR Path="/5E0992D6/5E0D8986" Ref="L3"  Part="1" 
+F 0 "L3" V 7040 5500 50  0000 C CNN
+F 1 "3u3" V 6949 5500 50  0000 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 6850 5500 50  0001 C CNN
+F 3 "~" H 6850 5500 50  0001 C CNN
+	1    6850 5500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E0D898C
+P 7100 5250
+AR Path="/5DF4CFF8/5E0D898C" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0D898C" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0D898C" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0D898C" Ref="C59"  Part="1" 
+F 0 "C59" H 7215 5296 50  0000 L CNN
+F 1 "100n" H 7215 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7138 5100 50  0001 C CNN
+F 3 "~" H 7100 5250 50  0001 C CNN
+	1    7100 5250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7000 5500 7100 5500
+Wire Wire Line
+	7100 5500 7100 5400
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0D8994
+P 7100 5000
+AR Path="/5DFE0AD6/5E0D8994" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0D8994" Ref="#PWR103"  Part="1" 
+F 0 "#PWR103" H 7100 5025 50  0001 C CNN
+F 1 "A_GND" H 7117 4827 50  0000 C CNN
+F 2 "" H 7100 5025 50  0001 C CNN
+F 3 "" H 7100 5025 50  0001 C CNN
+	1    7100 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7100 5000 7100 5100
+Wire Wire Line
+	7100 5500 7550 5500
+Connection ~ 7100 5500
+Wire Wire Line
+	6700 5500 6550 5500
+Connection ~ 6550 5500
+Wire Wire Line
+	7550 3850 8000 3850
+Wire Wire Line
+	8000 3850 8000 4500
+Connection ~ 7550 3850
+Wire Wire Line
+	7550 5500 8000 5500
+Wire Wire Line
+	8000 5500 8000 4800
+Connection ~ 7550 5500
+$Comp
+L Electroencephalograph:A_VDD #PWR108
+U 1 1 5E0E8DCD
+P 8300 3750
+F 0 "#PWR108" H 8300 3850 50  0001 C CNN
+F 1 "A_VDD" H 8317 3923 50  0000 C CNN
+F 2 "" H 8300 3850 50  0001 C CNN
+F 3 "" H 8300 3850 50  0001 C CNN
+	1    8300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:A_VSS #PWR119
+U 1 1 5E0E9936
+P 8300 5550
+F 0 "#PWR119" H 8300 5550 50  0001 C CNN
+F 1 "A_VSS" H 8318 5723 50  0000 C CNN
+F 2 "" H 8300 5550 50  0001 C CNN
+F 3 "" H 8300 5550 50  0001 C CNN
+	1    8300 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Electroencephalograph:D_VDD #PWR104
+U 1 1 5E0EA56C
+P 8300 2250
+F 0 "#PWR104" H 8300 2375 50  0001 C CNN
+F 1 "D_VDD" H 8317 2423 50  0000 C CNN
+F 2 "" H 8300 2375 50  0001 C CNN
+F 3 "" H 8300 2375 50  0001 C CNN
+	1    8300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5500 8300 5500
+Wire Wire Line
+	8300 5500 8300 5550
+Connection ~ 8000 5500
+Wire Wire Line
+	8000 3850 8300 3850
+Connection ~ 8000 3850
+Wire Wire Line
+	8300 3750 8300 3850
+$Comp
+L Regulator_Linear:TC1017-xCT U9
+U 1 1 5E102438
+P 6000 3950
+F 0 "U9" H 6000 4317 50  0000 C CNN
+F 1 "TC1017-xCT" H 6000 4226 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5750 4300 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21813F.pdf" H 6000 3850 50  0001 C CNN
+	1    6000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2500 5500 2500
+Wire Wire Line
+	5500 2500 5500 2400
+Wire Wire Line
+	5500 2400 5600 2400
+$Comp
+L Device:C C?
+U 1 1 5E103BE9
+P 5350 2750
+AR Path="/5DF4CFF8/5E103BE9" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E103BE9" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E103BE9" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E103BE9" Ref="C60"  Part="1" 
+F 0 "C60" H 5465 2796 50  0000 L CNN
+F 1 "1u" H 5465 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 2600 50  0001 C CNN
+F 3 "~" H 5350 2750 50  0001 C CNN
+	1    5350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:D_GND #PWR?
+U 1 1 5E10486F
+P 5350 3000
+AR Path="/5DFE0AD6/5E10486F" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E10486F" Ref="#PWR105"  Part="1" 
+F 0 "#PWR105" H 5350 3025 50  0001 C CNN
+F 1 "D_GND" H 5367 2827 50  0000 C CNN
+F 2 "" H 5350 3025 50  0001 C CNN
+F 3 "" H 5350 3025 50  0001 C CNN
+	1    5350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:D_GND #PWR?
+U 1 1 5E108583
+P 6000 3000
+AR Path="/5DFE0AD6/5E108583" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E108583" Ref="#PWR106"  Part="1" 
+F 0 "#PWR106" H 6000 3025 50  0001 C CNN
+F 1 "D_GND" H 6017 2827 50  0000 C CNN
+F 2 "" H 6000 3025 50  0001 C CNN
+F 3 "" H 6000 3025 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2400 5350 2400
+Wire Wire Line
+	5350 2400 5350 2600
+Connection ~ 5500 2400
+Wire Wire Line
+	5350 2900 5350 3000
+Wire Wire Line
+	6000 2800 6000 3000
+Wire Wire Line
+	8300 2400 8300 2250
+Wire Wire Line
+	5350 2400 2050 2400
+Wire Wire Line
+	2050 2050 2050 2400
+Connection ~ 5350 2400
+Connection ~ 2050 2400
+Wire Wire Line
+	2050 2400 2050 3850
+$Comp
+L Regulator_Linear:TC1017-xCT U10
+U 1 1 5E137A0E
+P 6000 5400
+F 0 "U10" H 6000 5675 50  0000 C CNN
+F 1 "TC1017-xCT" H 6000 5766 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5750 5750 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21813F.pdf" H 6000 5300 50  0001 C CNN
+	1    6000 5400
+	1    0    0    1   
+$EndComp
+$Comp
+L Regulator_Linear:TC1017-xCT U8
+U 1 1 5E1383BC
+P 6000 2500
+F 0 "U8" H 6000 2867 50  0000 C CNN
+F 1 "TC1017-xCT" H 6000 2776 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5750 2850 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21813F.pdf" H 6000 2400 50  0001 C CNN
+	1    6000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5500 5500 5500
+Connection ~ 5350 5500
+Wire Wire Line
+	6400 3850 6550 3850
+Wire Wire Line
+	6400 5500 6550 5500
+Wire Wire Line
+	5600 5400 5500 5400
+Wire Wire Line
+	5500 5400 5500 5500
+Connection ~ 5500 5500
+Wire Wire Line
+	5500 5500 5350 5500
+Wire Wire Line
+	5600 3950 5500 3950
+Wire Wire Line
+	5500 3950 5500 3850
+Wire Wire Line
+	5500 3850 5350 3850
+Connection ~ 5350 3850
+Wire Wire Line
+	5500 3850 5600 3850
+Connection ~ 5500 3850
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E14B166
+P 6000 5000
+AR Path="/5DFE0AD6/5E14B166" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E14B166" Ref="#PWR111"  Part="1" 
+F 0 "#PWR111" H 6000 5025 50  0001 C CNN
+F 1 "A_GND" H 6017 4827 50  0000 C CNN
+F 2 "" H 6000 5025 50  0001 C CNN
+F 3 "" H 6000 5025 50  0001 C CNN
+	1    6000 5000
+	1    0    0    1   
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E14B390
+P 6000 4350
+AR Path="/5DFE0AD6/5E14B390" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E14B390" Ref="#PWR109"  Part="1" 
+F 0 "#PWR109" H 6000 4375 50  0001 C CNN
+F 1 "A_GND" H 6017 4177 50  0000 C CNN
+F 2 "" H 6000 4375 50  0001 C CNN
+F 3 "" H 6000 4375 50  0001 C CNN
+	1    6000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4350 6000 4250
+Wire Wire Line
+	6000 5000 6000 5100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E19CD08
+P 7100 2300
+AR Path="/5DF61103/5E19CD08" Ref="TP?"  Part="1" 
+AR Path="/5E0992D6/5E19CD08" Ref="TP4"  Part="1" 
+F 0 "TP4" H 7158 2418 50  0000 L CNN
+F 1 "TestPoint" H 7158 2327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 7300 2300 50  0001 C CNN
+F 3 "~" H 7300 2300 50  0001 C CNN
+	1    7100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E1A0405
+P 7550 3800
+AR Path="/5DF61103/5E1A0405" Ref="TP?"  Part="1" 
+AR Path="/5E0992D6/5E1A0405" Ref="TP5"  Part="1" 
+F 0 "TP5" H 7608 3918 50  0000 L CNN
+F 1 "TestPoint" H 7608 3827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 7750 3800 50  0001 C CNN
+F 3 "~" H 7750 3800 50  0001 C CNN
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E1A2E89
+P 7550 5600
+AR Path="/5DF61103/5E1A2E89" Ref="TP?"  Part="1" 
+AR Path="/5E0992D6/5E1A2E89" Ref="TP7"  Part="1" 
+F 0 "TP7" H 7492 5626 50  0000 R CNN
+F 1 "TestPoint" H 7492 5717 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 7750 5600 50  0001 C CNN
+F 3 "~" H 7750 5600 50  0001 C CNN
+	1    7550 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 3800 7550 3850
+Wire Wire Line
+	7550 5600 7550 5500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E1AE8F5
+P 4400 5600
+AR Path="/5DF61103/5E1AE8F5" Ref="TP?"  Part="1" 
+AR Path="/5E0992D6/5E1AE8F5" Ref="TP6"  Part="1" 
+F 0 "TP6" H 4342 5626 50  0000 R CNN
+F 1 "TestPoint" H 4342 5717 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4600 5600 50  0001 C CNN
+F 3 "~" H 4600 5600 50  0001 C CNN
+	1    4400 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 5600 4400 5500
+$Comp
+L Device:L L?
+U 1 1 5DFF5B3E
+P 4100 5500
+AR Path="/5DFE0AD6/5DFF5B3E" Ref="L?"  Part="1" 
+AR Path="/5E0992D6/5DFF5B3E" Ref="L5"  Part="1" 
+F 0 "L5" V 4290 5500 50  0000 C CNN
+F 1 "3u3" V 4199 5500 50  0000 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 4100 5500 50  0001 C CNN
+F 3 "~" H 4100 5500 50  0001 C CNN
+	1    4100 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DFFE643
+P 6550 2650
+AR Path="/5DF4CFF8/5DFFE643" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5DFFE643" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5DFFE643" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5DFFE643" Ref="C61"  Part="1" 
+F 0 "C61" H 6665 2696 50  0000 L CNN
+F 1 "1u" H 6665 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6588 2500 50  0001 C CNN
+F 3 "~" H 6550 2650 50  0001 C CNN
+	1    6550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5DFFE649
+P 6550 2900
+AR Path="/5DFE0AD6/5DFFE649" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5DFFE649" Ref="#PWR107"  Part="1" 
+F 0 "#PWR107" H 6550 2925 50  0001 C CNN
+F 1 "A_GND" H 6567 2727 50  0000 C CNN
+F 2 "" H 6550 2925 50  0001 C CNN
+F 3 "" H 6550 2925 50  0001 C CNN
+	1    6550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2900 6550 2800
+Wire Wire Line
+	6550 2400 6550 2500
+$Comp
+L Device:L L?
+U 1 1 5DFFE651
+P 6850 2400
+AR Path="/5DFE0AD6/5DFFE651" Ref="L?"  Part="1" 
+AR Path="/5E0992D6/5DFFE651" Ref="L4"  Part="1" 
+F 0 "L4" V 7040 2400 50  0000 C CNN
+F 1 "3u3" V 6949 2400 50  0000 C CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 6850 2400 50  0001 C CNN
+F 3 "~" H 6850 2400 50  0001 C CNN
+	1    6850 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DFFE657
+P 7100 2650
+AR Path="/5DF4CFF8/5DFFE657" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5DFFE657" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5DFFE657" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5DFFE657" Ref="C62"  Part="1" 
+F 0 "C62" H 7215 2696 50  0000 L CNN
+F 1 "100n" H 7215 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7138 2500 50  0001 C CNN
+F 3 "~" H 7100 2650 50  0001 C CNN
+	1    7100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2400 6700 2400
+Connection ~ 6550 2400
+Wire Wire Line
+	7000 2400 7100 2400
+Wire Wire Line
+	7100 2400 7100 2500
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5DFFE661
+P 7100 2900
+AR Path="/5DFE0AD6/5DFFE661" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5DFFE661" Ref="#PWR121"  Part="1" 
+F 0 "#PWR121" H 7100 2925 50  0001 C CNN
+F 1 "A_GND" H 7117 2727 50  0000 C CNN
+F 2 "" H 7100 2925 50  0001 C CNN
+F 3 "" H 7100 2925 50  0001 C CNN
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2900 7100 2800
+Connection ~ 7100 2400
+Wire Wire Line
+	6400 2400 6550 2400
+Wire Wire Line
+	7100 2400 8300 2400
+Wire Wire Line
+	7100 2300 7100 2400
+Wire Wire Line
+	3850 5500 3950 5500
+Connection ~ 3850 5500
+Wire Wire Line
+	4250 5500 4400 5500
+$EndSCHEMATC

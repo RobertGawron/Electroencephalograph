@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -1851,21 +1851,21 @@ Wire Wire Line
 Wire Wire Line
 	6800 5050 6950 5050
 Text GLabel 3650 1550 2    50   Input ~ 0
-ECC_1
+ECC_1P
 Text GLabel 7000 1550 2    50   Input ~ 0
-ECC_2
+ECC_2P
 Text GLabel 10350 1550 2    50   Input ~ 0
-ECC_3
+ECC_3P
 Text GLabel 3650 3350 2    50   Input ~ 0
-ECC_4
+ECC_4P
 Text GLabel 7000 3350 2    50   Input ~ 0
-ECC_5
+ECC_5P
 Text GLabel 10350 3300 2    50   Input ~ 0
-ECC_6
+ECC_6P
 Text GLabel 3700 5100 2    50   Input ~ 0
-ECC_7
+ECC_7P
 Text GLabel 6950 5050 2    50   Input ~ 0
-ECC_8
+ECC_8P
 Wire Wire Line
 	5750 3450 5750 3350
 Wire Wire Line
