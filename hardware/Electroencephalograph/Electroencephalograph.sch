@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1650 1550 650  250 
+S 1050 1100 650  250 
 U 5DF4CFF8
-F0 "EEGFrontend" 50
-F1 "EEGFrontend.sch" 50
+F0 "EEGFrontendPositiveElectrode" 50
+F1 "EEGFrontendPositiveElectrode.sch" 50
 $EndSheet
 $Sheet
 S 2900 1600 500  150 
@@ -43,5 +43,11 @@ S 2050 2350 500  150
 U 5E0992D6
 F0 "EEGPowerSupply" 50
 F1 "EEGPowerSupply.sch" 50
+$EndSheet
+$Sheet
+S 900  1750 500  150 
+U 5E312944
+F0 "EEGFrontendNegativeElectrode" 50
+F1 "EEGFrontendNegativeElectrode.sch" 50
 $EndSheet
 $EndSCHEMATC
