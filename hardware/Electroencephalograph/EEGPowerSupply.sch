@@ -151,7 +151,7 @@ AR Path="/5DFE0AD6/5E0A0C9A" Ref="C?"  Part="1"
 AR Path="/5E0992D6/5E0A0C9A" Ref="C68"  Part="1" 
 F 0 "C68" H 2882 5296 50  0000 R CNN
 F 1 "100u" H 2882 5205 50  0000 R CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 3038 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 3038 5100 50  0001 C CNN
 F 3 "~" H 3000 5250 50  0001 C CNN
 	1    3000 5250
 	1    0    0    1   
@@ -165,7 +165,7 @@ AR Path="/5DF61103/5E0A0CA0" Ref="C?"  Part="1"
 AR Path="/5DFE0AD6/5E0A0CA0" Ref="C?"  Part="1" 
 AR Path="/5E0992D6/5E0A0CA0" Ref="C65"  Part="1" 
 F 0 "C65" H 4918 5246 50  0000 L CNN
-F 1 "22u" H 4918 5155 50  0000 L CNN
+F 1 "100u" H 4918 5155 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 4838 5050 50  0001 C CNN
 F 3 "~" H 4800 5200 50  0001 C CNN
 	1    4800 5200
@@ -381,76 +381,7 @@ F 3 "~" H 7850 4650 50  0001 C CNN
 	1    7850 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5E0CDD1B
-P 6950 4100
-AR Path="/5DF4CFF8/5E0CDD1B" Ref="C?"  Part="1" 
-AR Path="/5DF61103/5E0CDD1B" Ref="C?"  Part="1" 
-AR Path="/5DFE0AD6/5E0CDD1B" Ref="C?"  Part="1" 
-AR Path="/5E0992D6/5E0CDD1B" Ref="C60"  Part="1" 
-F 0 "C60" H 7065 4146 50  0000 L CNN
-F 1 "100n" H 7065 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6988 3950 50  0001 C CNN
-F 3 "~" H 6950 4100 50  0001 C CNN
-	1    6950 4100
-	1    0    0    -1  
-$EndComp
 Connection ~ 6500 3850
-Wire Wire Line
-	6950 3850 6950 3950
-$Comp
-L Electroencephalograph:A_GND #PWR?
-U 1 1 5E0CF637
-P 6950 4400
-AR Path="/5DFE0AD6/5E0CF637" Ref="#PWR?"  Part="1" 
-AR Path="/5E0992D6/5E0CF637" Ref="#PWR117"  Part="1" 
-F 0 "#PWR117" H 6950 4425 50  0001 C CNN
-F 1 "A_GND" H 6967 4227 50  0000 C CNN
-F 2 "" H 6950 4425 50  0001 C CNN
-F 3 "" H 6950 4425 50  0001 C CNN
-	1    6950 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 4400 6950 4250
-Wire Wire Line
-	6950 3850 7400 3850
-Connection ~ 6950 3850
-$Comp
-L Device:C C?
-U 1 1 5E0D898C
-P 6950 5250
-AR Path="/5DF4CFF8/5E0D898C" Ref="C?"  Part="1" 
-AR Path="/5DF61103/5E0D898C" Ref="C?"  Part="1" 
-AR Path="/5DFE0AD6/5E0D898C" Ref="C?"  Part="1" 
-AR Path="/5E0992D6/5E0D898C" Ref="C70"  Part="1" 
-F 0 "C70" H 7065 5296 50  0000 L CNN
-F 1 "100n" H 7065 5205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6988 5100 50  0001 C CNN
-F 3 "~" H 6950 5250 50  0001 C CNN
-	1    6950 5250
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	6950 5500 6950 5400
-$Comp
-L Electroencephalograph:A_GND #PWR?
-U 1 1 5E0D8994
-P 6950 5000
-AR Path="/5DFE0AD6/5E0D8994" Ref="#PWR?"  Part="1" 
-AR Path="/5E0992D6/5E0D8994" Ref="#PWR126"  Part="1" 
-F 0 "#PWR126" H 6950 5025 50  0001 C CNN
-F 1 "A_GND" H 6967 4827 50  0000 C CNN
-F 2 "" H 6950 5025 50  0001 C CNN
-F 3 "" H 6950 5025 50  0001 C CNN
-	1    6950 5000
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	6950 5000 6950 5100
-Wire Wire Line
-	6950 5500 7400 5500
 Wire Wire Line
 	7400 3850 7850 3850
 Wire Wire Line
@@ -663,7 +594,7 @@ AR Path="/5DFE0AD6/5DFF5B3E" Ref="L?"  Part="1"
 AR Path="/5E0992D6/5DFF5B3E" Ref="L6"  Part="1" 
 F 0 "L6" V 4690 5500 50  0000 C CNN
 F 1 "22u" V 4599 5500 50  0000 C CNN
-F 2 "Inductor_SMD:L_1206_3216Metric" H 4500 5500 50  0001 C CNN
+F 2 "Inductor_SMD:L_7.3x7.3_H3.5" H 4500 5500 50  0001 C CNN
 F 3 "~" H 4500 5500 50  0001 C CNN
 	1    4500 5500
 	0    1    1    0   
@@ -751,7 +682,7 @@ AR Path="/5DFE0AD6/5E0C44DF" Ref="L?"  Part="1"
 AR Path="/5E0992D6/5E0C44DF" Ref="L5"  Part="1" 
 F 0 "L5" V 2890 5500 50  0000 C CNN
 F 1 "22u" V 2799 5500 50  0000 C CNN
-F 2 "Inductor_SMD:L_1206_3216Metric" H 2700 5500 50  0001 C CNN
+F 2 "Inductor_SMD:L_7.3x7.3_H3.5" H 2700 5500 50  0001 C CNN
 F 3 "~" H 2700 5500 50  0001 C CNN
 	1    2700 5500
 	0    1    1    0   
@@ -762,8 +693,6 @@ Connection ~ 2400 5500
 Wire Wire Line
 	2850 5500 3000 5500
 Connection ~ 3000 5500
-Wire Wire Line
-	6500 3850 6950 3850
 Wire Wire Line
 	6500 2400 7050 2400
 $Comp
@@ -867,10 +796,7 @@ Wire Wire Line
 	5450 5400 5500 5400
 Wire Wire Line
 	6250 5500 6500 5500
-Wire Wire Line
-	6500 5500 6950 5500
 Connection ~ 6500 5500
-Connection ~ 6950 5500
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5E14A4FF
@@ -889,4 +815,8 @@ Wire Wire Line
 Wire Wire Line
 	2400 2050 2400 1950
 Connection ~ 2050 2050
+Wire Wire Line
+	6500 5500 7400 5500
+Wire Wire Line
+	6500 3850 7400 3850
 $EndSCHEMATC
