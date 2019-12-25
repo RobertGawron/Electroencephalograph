@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1050 1100 650  250 
+S 900  1200 650  250 
 U 5DF4CFF8
 F0 "EEGFrontendPositiveElectrode" 50
 F1 "EEGFrontendPositiveElectrode.sch" 50
@@ -39,7 +39,7 @@ F0 "Isolation" 50
 F1 "Isolation.sch" 50
 $EndSheet
 $Sheet
-S 2050 2350 500  150 
+S 2850 2300 500  150 
 U 5E0992D6
 F0 "EEGPowerSupply" 50
 F1 "EEGPowerSupply.sch" 50
