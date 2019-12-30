@@ -1491,7 +1491,7 @@ AR Path="/5DFE0AD6/5ED8595A" Ref="L?"  Part="1"
 AR Path="/5DF61103/5ED8595A" Ref="L1"  Part="1" 
 F 0 "L1" V 4490 800 50  0000 C CNN
 F 1 "22u" V 4399 800 50  0000 C CNN
-F 2 "Inductor_SMD:L_7.3x7.3_H3.5" H 4300 800 50  0001 C CNN
+F 2 "Electroencephalograph:L_7.3x7.3_H3.5" H 4300 800 50  0001 C CNN
 F 3 "~" H 4300 800 50  0001 C CNN
 	1    4300 800 
 	0    -1   -1   0   
@@ -1521,7 +1521,7 @@ AR Path="/5DFE0AD6/5ECF846B" Ref="L?"  Part="1"
 AR Path="/5DF61103/5ECF846B" Ref="L2"  Part="1" 
 F 0 "L2" V 4490 1550 50  0000 C CNN
 F 1 "22u" V 4399 1550 50  0000 C CNN
-F 2 "Inductor_SMD:L_7.3x7.3_H3.5" H 4300 1550 50  0001 C CNN
+F 2 "Electroencephalograph:L_7.3x7.3_H3.5" H 4300 1550 50  0001 C CNN
 F 3 "~" H 4300 1550 50  0001 C CNN
 	1    4300 1550
 	0    -1   -1   0   

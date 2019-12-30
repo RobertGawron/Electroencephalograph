@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Electroencephalograph)(type KiCad)(uri ${KIPRJMOD}/Electroencephalograph.pretty)(options "")(descr ""))
+)
