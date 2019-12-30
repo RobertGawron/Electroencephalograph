@@ -17,8 +17,8 @@ $EndDescr
 $Sheet
 S 900  1200 650  250 
 U 5DF4CFF8
-F0 "EEGFrontendPositiveElectrode" 50
-F1 "EEGFrontendPositiveElectrode.sch" 50
+F0 "EEGFrontendElectrode1To4" 50
+F1 "EEGFrontendElectrode1To4.sch" 50
 $EndSheet
 $Sheet
 S 2900 1600 500  150 
@@ -47,7 +47,7 @@ $EndSheet
 $Sheet
 S 900  1750 500  150 
 U 5E312944
-F0 "EEGFrontendNegativeElectrode" 50
-F1 "EEGFrontendNegativeElectrode.sch" 50
+F0 "EEGFrontendElectrode5To8" 50
+F1 "EEGFrontendElectrode5To8.sch" 50
 $EndSheet
 $EndSCHEMATC
