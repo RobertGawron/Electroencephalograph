@@ -223,17 +223,6 @@ F 3 "" H 2500 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Electroencephalograph:DP_VDD #PWR101
-U 1 1 5E02F433
-P 2500 2400
-F 0 "#PWR101" H 2500 2525 50  0001 C CNN
-F 1 "DP_VDD" H 2517 2573 50  0000 C CNN
-F 2 "" H 2500 2525 50  0001 C CNN
-F 3 "" H 2500 2525 50  0001 C CNN
-	1    2500 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Electroencephalograph:THI3-0511 U4
 U 1 1 5E036623
 P 3200 4600
@@ -387,17 +376,6 @@ $EndComp
 Wire Wire Line
 	4700 4700 4700 4800
 $Comp
-L Electroencephalograph:DP_VDD #PWR98
-U 1 1 5E00C2CC
-P 1800 4650
-F 0 "#PWR98" H 1800 4775 50  0001 C CNN
-F 1 "DP_VDD" H 1817 4823 50  0000 C CNN
-F 2 "" H 1800 4775 50  0001 C CNN
-F 3 "" H 1800 4775 50  0001 C CNN
-	1    1800 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Electroencephalograph:DP_GND #PWR103
 U 1 1 5E00C6AB
 P 2650 5250
@@ -493,5 +471,27 @@ F 2 "Electroencephalograph:L_7.3x7.3_H3.5" H 4450 4800 50  0001 C CNN
 F 3 "~" H 4450 4800 50  0001 C CNN
 	1    4450 4800
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Electroencephalograph:DP_VDD #PWR98
+U 1 1 5E00C2CC
+P 1800 4650
+F 0 "#PWR98" H 1800 4775 50  0001 C CNN
+F 1 "DP_VDD" H 1817 4823 50  0000 C CNN
+F 2 "" H 1800 4775 50  0001 C CNN
+F 3 "" H 1800 4775 50  0001 C CNN
+	1    1800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:DP_VDD #PWR101
+U 1 1 5E02F433
+P 2500 2400
+F 0 "#PWR101" H 2500 2525 50  0001 C CNN
+F 1 "DP_VDD" H 2517 2573 50  0000 C CNN
+F 2 "" H 2500 2525 50  0001 C CNN
+F 3 "" H 2500 2525 50  0001 C CNN
+	1    2500 2400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
