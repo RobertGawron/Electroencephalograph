@@ -14,4 +14,9 @@ $CMP REF5025
 D Low-Noise, Very Low Drift, Precision Voltage Reference
 $ENDCMP
 #
+$CMP THI3-0511
+D Converter: DC/DC; 3W; Uin: 4.5÷5.5V; 5VDC; Iout: 600mA; DIP24; 60kHz
+F https://www.tme.eu/Document/dbc573554d903d2de79b1454bccf4b94/thi3-datasheet.pdf
+$ENDCMP
+#
 #End Doc Library
