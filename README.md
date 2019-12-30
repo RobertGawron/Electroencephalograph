@@ -8,7 +8,7 @@ Encephalograph is a noninvasive and relatively simple device to monitor brain ac
 
 This project is based on a single chip that integrates all EEG acquisition, this simplifies the design and reduce costs.
 
-![render of the device](https://raw.githubusercontent.com/RobertGawron/Electroencephalograph/master/documentation/pictures/render_30_12_2019.png.png)
+![render of the device](https://raw.githubusercontent.com/RobertGawron/Electroencephalograph/master/documentation/pictures/render_30_12_2019.png)
 
 ## System architecture
 
