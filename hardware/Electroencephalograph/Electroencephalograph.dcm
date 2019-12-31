@@ -19,4 +19,10 @@ D Converter: DC/DC; 3W; Uin: 4.5÷5.5V; 5VDC; Iout: 600mA; DIP24; 60kHz
 F https://www.tme.eu/Document/dbc573554d903d2de79b1454bccf4b94/thi3-datasheet.pdf
 $ENDCMP
 #
+$CMP TPS60403
+D Unregulated 60-mA Charge Pump Voltage Inverter
+K charge pump
+F http://www.ti.com/lit/ds/symlink/tps60402.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Electroencephalograph:ADUM2401BRWZ U5
-U 1 1 5E006D91
-P 3550 2350
-F 0 "U5" H 3525 2425 50  0000 C CNN
-F 1 "ADUM2401BRWZ" H 3525 2334 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 3550 2350 50  0001 C CNN
-F 3 "" H 3550 2350 50  0001 C CNN
-	1    3550 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Electroencephalograph:D_GND #PWR?
 U 1 1 5E009395
 P 3950 3400
@@ -135,12 +124,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 3200 3100 3200
 Wire Wire Line
-	3100 3200 3100 3400
-Wire Wire Line
 	3150 2600 3100 2600
 Wire Wire Line
 	3100 2600 3100 3200
-Connection ~ 3100 3200
 Text GLabel 2150 2700 0    50   Input ~ 0
 SCK
 Text GLabel 2150 2800 0    50   Input ~ 0
@@ -157,8 +143,6 @@ Wire Wire Line
 	3150 2900 2150 2900
 Wire Wire Line
 	3150 3000 2150 3000
-Wire Wire Line
-	2500 3400 2500 3350
 Connection ~ 2500 2500
 Wire Wire Line
 	2500 2500 2500 2400
@@ -200,39 +184,6 @@ Wire Wire Line
 Connection ~ 2650 2500
 Wire Wire Line
 	2650 2500 2500 2500
-$Comp
-L Electroencephalograph:DP_GND #PWR104
-U 1 1 5E02E89B
-P 3100 3400
-F 0 "#PWR104" H 3100 3425 50  0001 C CNN
-F 1 "DP_GND" H 3117 3227 50  0000 C CNN
-F 2 "" H 3100 3425 50  0001 C CNN
-F 3 "" H 3100 3425 50  0001 C CNN
-	1    3100 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Electroencephalograph:DP_GND #PWR102
-U 1 1 5E02EFAB
-P 2500 3400
-F 0 "#PWR102" H 2500 3425 50  0001 C CNN
-F 1 "DP_GND" H 2517 3227 50  0000 C CNN
-F 2 "" H 2500 3425 50  0001 C CNN
-F 3 "" H 2500 3425 50  0001 C CNN
-	1    2500 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Electroencephalograph:THI3-0511 U4
-U 1 1 5E036623
-P 3200 4600
-F 0 "U4" H 3200 4625 50  0000 C CNN
-F 1 "THI3-0511" H 3200 4534 50  0000 C CNN
-F 2 "Electroencephalograph:THI3-0511" H 3200 4600 50  0001 C CNN
-F 3 "https://www.tme.eu/Document/dbc573554d903d2de79b1454bccf4b94/thi3-datasheet.pdf" H 3200 4600 50  0001 C CNN
-	1    3200 4600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5E036F39
@@ -290,18 +241,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 5100 2650 5200
 Wire Wire Line
-	2300 5250 2300 5200
-Wire Wire Line
 	4900 5300 4900 5400
-Wire Wire Line
-	4900 5300 5050 5300
 Wire Wire Line
 	5200 5300 5200 5400
 Wire Wire Line
 	2800 5200 2650 5200
-Connection ~ 2650 5200
-Wire Wire Line
-	2650 5200 2650 5250
 Wire Wire Line
 	4700 4800 4700 4850
 Wire Wire Line
@@ -313,9 +257,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 5200 5050 5300
 Connection ~ 4700 5200
-Connection ~ 5050 5300
-Wire Wire Line
-	5050 5300 5200 5300
 $Comp
 L Device:L L3
 U 1 1 5E061AC1
@@ -361,66 +302,29 @@ Connection ~ 4700 4800
 Text GLabel 4950 4800 2    50   Input ~ 0
 ECC_POWER_SUPPLY
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5E1B3787
-P 4700 4700
-AR Path="/5DF61103/5E1B3787" Ref="TP?"  Part="1" 
-AR Path="/5DFE0AD6/5E1B3787" Ref="TP8"  Part="1" 
-F 0 "TP8" H 4758 4818 50  0000 L CNN
-F 1 "TestPoint" H 4758 4727 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4900 4700 50  0001 C CNN
-F 3 "~" H 4900 4700 50  0001 C CNN
-	1    4700 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 4700 4700 4800
-$Comp
-L Electroencephalograph:DP_GND #PWR103
-U 1 1 5E00C6AB
-P 2650 5250
-F 0 "#PWR103" H 2650 5275 50  0001 C CNN
-F 1 "DP_GND" H 2667 5077 50  0000 C CNN
-F 2 "" H 2650 5275 50  0001 C CNN
-F 3 "" H 2650 5275 50  0001 C CNN
-	1    2650 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Electroencephalograph:DP_GND #PWR100
-U 1 1 5E00CF9A
-P 2300 5250
-F 0 "#PWR100" H 2300 5275 50  0001 C CNN
-F 1 "DP_GND" H 2317 5077 50  0000 C CNN
-F 2 "" H 2300 5275 50  0001 C CNN
-F 3 "" H 2300 5275 50  0001 C CNN
-	1    2300 5250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP C49
 U 1 1 5E035319
-P 1800 5050
-F 0 "C49" H 1918 5096 50  0000 L CNN
-F 1 "220u" H 1918 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 1838 4900 50  0001 C CNN
-F 3 "~" H 1800 5050 50  0001 C CNN
-	1    1800 5050
+P 1400 5050
+F 0 "C49" H 1518 5096 50  0000 L CNN
+F 1 "220u" H 1518 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 1438 4900 50  0001 C CNN
+F 3 "~" H 1400 5050 50  0001 C CNN
+	1    1400 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Electroencephalograph:DP_GND #PWR99
 U 1 1 5E03B877
-P 1800 5250
-F 0 "#PWR99" H 1800 5275 50  0001 C CNN
-F 1 "DP_GND" H 1817 5077 50  0000 C CNN
-F 2 "" H 1800 5275 50  0001 C CNN
-F 3 "" H 1800 5275 50  0001 C CNN
-	1    1800 5250
+P 1400 5250
+F 0 "#PWR99" H 1400 5275 50  0001 C CNN
+F 1 "DP_GND" H 1417 5077 50  0000 C CNN
+F 2 "" H 1400 5275 50  0001 C CNN
+F 3 "" H 1400 5275 50  0001 C CNN
+	1    1400 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 5250 1800 5200
+	1400 5250 1400 5200
 Wire Wire Line
 	2800 4800 2650 4800
 Wire Wire Line
@@ -431,15 +335,15 @@ Wire Wire Line
 Wire Wire Line
 	2300 4800 2300 4900
 Wire Wire Line
-	1800 4650 1800 4800
+	1400 4650 1400 4800
 Wire Wire Line
 	2300 4800 2200 4800
 Connection ~ 2300 4800
 Wire Wire Line
 	1900 4800 1800 4800
-Connection ~ 1800 4800
+Connection ~ 1400 4800
 Wire Wire Line
-	1800 4800 1800 4900
+	1400 4800 1400 4900
 $Comp
 L Device:CP C52
 U 1 1 5E0505FB
@@ -475,12 +379,12 @@ $EndComp
 $Comp
 L Electroencephalograph:DP_VDD #PWR98
 U 1 1 5E00C2CC
-P 1800 4650
-F 0 "#PWR98" H 1800 4775 50  0001 C CNN
-F 1 "DP_VDD" H 1817 4823 50  0000 C CNN
-F 2 "" H 1800 4775 50  0001 C CNN
-F 3 "" H 1800 4775 50  0001 C CNN
-	1    1800 4650
+P 1400 4650
+F 0 "#PWR98" H 1400 4775 50  0001 C CNN
+F 1 "DP_VDD" H 1417 4823 50  0000 C CNN
+F 2 "" H 1400 4775 50  0001 C CNN
+F 3 "" H 1400 4775 50  0001 C CNN
+	1    1400 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -492,6 +396,119 @@ F 1 "DP_VDD" H 2517 2573 50  0000 C CNN
 F 2 "" H 2500 2525 50  0001 C CNN
 F 3 "" H 2500 2525 50  0001 C CNN
 	1    2500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E1125B2
+P 1800 5050
+AR Path="/5DF4CFF8/5E1125B2" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E1125B2" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E1125B2" Ref="C95"  Part="1" 
+F 0 "C95" H 1915 5096 50  0000 L CNN
+F 1 "100n" H 1915 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1838 4900 50  0001 C CNN
+F 3 "~" H 1800 5050 50  0001 C CNN
+	1    1800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4900 1800 4800
+Connection ~ 1800 4800
+Wire Wire Line
+	1800 4800 1400 4800
+Wire Wire Line
+	4900 5300 5050 5300
+Connection ~ 5050 5300
+Wire Wire Line
+	5050 5300 5200 5300
+$Comp
+L Electroencephalograph:DP_GND #PWR177
+U 1 1 5E1125B9
+P 1800 5250
+F 0 "#PWR177" H 1800 5275 50  0001 C CNN
+F 1 "DP_GND" H 1817 5077 50  0000 C CNN
+F 2 "" H 1800 5275 50  0001 C CNN
+F 3 "" H 1800 5275 50  0001 C CNN
+	1    1800 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5250 1800 5200
+$Comp
+L Electroencephalograph:DP_GND #PWR100
+U 1 1 5E00CF9A
+P 2300 5250
+F 0 "#PWR100" H 2300 5275 50  0001 C CNN
+F 1 "DP_GND" H 2317 5077 50  0000 C CNN
+F 2 "" H 2300 5275 50  0001 C CNN
+F 3 "" H 2300 5275 50  0001 C CNN
+	1    2300 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:DP_GND #PWR103
+U 1 1 5E00C6AB
+P 2650 5250
+F 0 "#PWR103" H 2650 5275 50  0001 C CNN
+F 1 "DP_GND" H 2667 5077 50  0000 C CNN
+F 2 "" H 2650 5275 50  0001 C CNN
+F 3 "" H 2650 5275 50  0001 C CNN
+	1    2650 5250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2650 5200
+Wire Wire Line
+	2650 5200 2650 5250
+Wire Wire Line
+	2300 5250 2300 5200
+$Comp
+L Electroencephalograph:DP_GND #PWR102
+U 1 1 5E02EFAB
+P 2500 3400
+F 0 "#PWR102" H 2500 3425 50  0001 C CNN
+F 1 "DP_GND" H 2517 3227 50  0000 C CNN
+F 2 "" H 2500 3425 50  0001 C CNN
+F 3 "" H 2500 3425 50  0001 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:DP_GND #PWR104
+U 1 1 5E02E89B
+P 3100 3400
+F 0 "#PWR104" H 3100 3425 50  0001 C CNN
+F 1 "DP_GND" H 3117 3227 50  0000 C CNN
+F 2 "" H 3100 3425 50  0001 C CNN
+F 3 "" H 3100 3425 50  0001 C CNN
+	1    3100 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3400 2500 3350
+Connection ~ 3100 3200
+Wire Wire Line
+	3100 3200 3100 3400
+$Comp
+L Electroencephalograph:ADUM2401BRWZ U5
+U 1 1 5E006D91
+P 3550 2350
+F 0 "U5" H 3525 2425 50  0000 C CNN
+F 1 "ADUM2401BRWZ" H 3525 2334 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 3550 2350 50  0001 C CNN
+F 3 "" H 3550 2350 50  0001 C CNN
+	1    3550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:THI3-0511 U4
+U 1 1 5E036623
+P 3200 4600
+F 0 "U4" H 3200 4625 50  0000 C CNN
+F 1 "THI3-0511" H 3200 4534 50  0000 C CNN
+F 2 "Electroencephalograph:THI3-0511" H 3200 4600 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/dbc573554d903d2de79b1454bccf4b94/thi3-datasheet.pdf" H 3200 4600 50  0001 C CNN
+	1    3200 4600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

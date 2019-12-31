@@ -15,19 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Electroencephalograph:TPS60403 U?
-U 1 1 5E0A0C58
-P 5450 5650
-AR Path="/5DFE0AD6/5E0A0C58" Ref="U?"  Part="1" 
-AR Path="/5E0992D6/5E0A0C58" Ref="U6"  Part="1" 
-F 0 "U6" H 3950 5800 50  0000 L CNN
-F 1 "TPS60403" H 3950 5700 50  0000 L CNN
-F 2 "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" H 5450 5650 50  0001 C CNN
-F 3 "" H 5450 5650 50  0001 C CNN
-	1    5450 5650
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5E0A0C5E
 P 4250 5200
@@ -87,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 5750 3750 5700
 Wire Wire Line
-	3300 5500 3000 5500
+	3300 5500 3100 5500
 Wire Wire Line
 	4150 5500 4250 5500
 Wire Wire Line
@@ -110,50 +97,50 @@ $EndComp
 Wire Wire Line
 	4250 5000 4250 5050
 Wire Wire Line
-	3000 5500 3000 5400
+	2800 5500 2800 5400
 Wire Wire Line
-	3000 5000 3000 5100
+	2800 5000 2800 5100
 $Comp
 L Electroencephalograph:A_GND #PWR?
 U 1 1 5E0A0C8E
-P 3000 5000
+P 2800 5000
 AR Path="/5DFE0AD6/5E0A0C8E" Ref="#PWR?"  Part="1" 
 AR Path="/5E0992D6/5E0A0C8E" Ref="#PWR111"  Part="1" 
-F 0 "#PWR111" H 3000 5025 50  0001 C CNN
-F 1 "A_GND" H 3017 4827 50  0000 C CNN
-F 2 "" H 3000 5025 50  0001 C CNN
-F 3 "" H 3000 5025 50  0001 C CNN
-	1    3000 5000
+F 0 "#PWR111" H 2800 5025 50  0001 C CNN
+F 1 "A_GND" H 2817 4827 50  0000 C CNN
+F 2 "" H 2800 5025 50  0001 C CNN
+F 3 "" H 2800 5025 50  0001 C CNN
+	1    2800 5000
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5E0A0C94
-P 2400 5250
+P 2200 5250
 AR Path="/5DF4CFF8/5E0A0C94" Ref="C?"  Part="1" 
 AR Path="/5DF61103/5E0A0C94" Ref="C?"  Part="1" 
 AR Path="/5DFE0AD6/5E0A0C94" Ref="C?"  Part="1" 
 AR Path="/5E0992D6/5E0A0C94" Ref="C56"  Part="1" 
-F 0 "C56" H 2515 5296 50  0000 L CNN
-F 1 "1u" H 2515 5205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2438 5100 50  0001 C CNN
-F 3 "~" H 2400 5250 50  0001 C CNN
-	1    2400 5250
+F 0 "C56" H 2315 5296 50  0000 L CNN
+F 1 "1u" H 2315 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2238 5100 50  0001 C CNN
+F 3 "~" H 2200 5250 50  0001 C CNN
+	1    2200 5250
 	1    0    0    1   
 $EndComp
 $Comp
 L Device:CP C?
 U 1 1 5E0A0C9A
-P 3000 5250
+P 2800 5250
 AR Path="/5DF4CFF8/5E0A0C9A" Ref="C?"  Part="1" 
 AR Path="/5DF61103/5E0A0C9A" Ref="C?"  Part="1" 
 AR Path="/5DFE0AD6/5E0A0C9A" Ref="C?"  Part="1" 
 AR Path="/5E0992D6/5E0A0C9A" Ref="C57"  Part="1" 
-F 0 "C57" H 2882 5296 50  0000 R CNN
-F 1 "100u" H 2882 5205 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 3038 5100 50  0001 C CNN
-F 3 "~" H 3000 5250 50  0001 C CNN
-	1    3000 5250
+F 0 "C57" H 2682 5296 50  0000 R CNN
+F 1 "100u" H 2682 5205 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 2838 5100 50  0001 C CNN
+F 3 "~" H 2800 5250 50  0001 C CNN
+	1    2800 5250
 	1    0    0    1   
 $EndComp
 $Comp
@@ -174,20 +161,20 @@ $EndComp
 $Comp
 L Electroencephalograph:A_GND #PWR?
 U 1 1 5E0A0CA6
-P 2400 5000
+P 2200 5000
 AR Path="/5DFE0AD6/5E0A0CA6" Ref="#PWR?"  Part="1" 
 AR Path="/5E0992D6/5E0A0CA6" Ref="#PWR110"  Part="1" 
-F 0 "#PWR110" H 2400 5025 50  0001 C CNN
-F 1 "A_GND" H 2417 4827 50  0000 C CNN
-F 2 "" H 2400 5025 50  0001 C CNN
-F 3 "" H 2400 5025 50  0001 C CNN
-	1    2400 5000
+F 0 "#PWR110" H 2200 5025 50  0001 C CNN
+F 1 "A_GND" H 2217 4827 50  0000 C CNN
+F 2 "" H 2200 5025 50  0001 C CNN
+F 3 "" H 2200 5025 50  0001 C CNN
+	1    2200 5000
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	2400 5000 2400 5100
+	2200 5000 2200 5100
 Wire Wire Line
-	2400 5400 2400 5500
+	2200 5400 2200 5500
 Wire Wire Line
 	4800 5500 4800 5350
 $Comp
@@ -272,7 +259,7 @@ Wire Wire Line
 	5300 5000 5300 5050
 Wire Wire Line
 	5300 5350 5300 5500
-Text GLabel 1850 2050 0    50   Input ~ 0
+Text GLabel 1650 2050 0    50   Input ~ 0
 ECC_POWER_SUPPLY
 $Comp
 L Device:C C?
@@ -339,14 +326,14 @@ Wire Wire Line
 Wire Wire Line
 	5300 4000 5300 3850
 Wire Wire Line
-	1850 2050 2050 2050
+	1650 2050 1850 2050
 Wire Wire Line
-	2050 5500 2400 5500
+	1850 5500 2200 5500
 Wire Wire Line
-	2050 3850 5300 3850
-Connection ~ 2050 3850
+	1850 3850 5300 3850
+Connection ~ 1850 3850
 Wire Wire Line
-	2050 3850 2050 5500
+	1850 3850 1850 5500
 $Comp
 L Device:C C?
 U 1 1 5E0C8079
@@ -492,13 +479,13 @@ Wire Wire Line
 Wire Wire Line
 	8250 2400 8250 2250
 Wire Wire Line
-	5300 2400 2050 2400
+	5300 2400 1850 2400
 Wire Wire Line
-	2050 2050 2050 2400
+	1850 2050 1850 2400
 Connection ~ 5300 2400
-Connection ~ 2050 2400
+Connection ~ 1850 2400
 Wire Wire Line
-	2050 2400 2050 3850
+	1850 2400 1850 3850
 Connection ~ 5300 5500
 Wire Wire Line
 	5450 5400 5450 5500
@@ -677,22 +664,22 @@ $EndComp
 $Comp
 L Device:L L?
 U 1 1 5E0C44DF
-P 2700 5500
+P 2500 5500
 AR Path="/5DFE0AD6/5E0C44DF" Ref="L?"  Part="1" 
 AR Path="/5E0992D6/5E0C44DF" Ref="L5"  Part="1" 
-F 0 "L5" V 2890 5500 50  0000 C CNN
-F 1 "22u" V 2799 5500 50  0000 C CNN
-F 2 "Electroencephalograph:L_7.3x7.3_H3.5" H 2700 5500 50  0001 C CNN
-F 3 "~" H 2700 5500 50  0001 C CNN
-	1    2700 5500
+F 0 "L5" V 2690 5500 50  0000 C CNN
+F 1 "22u" V 2599 5500 50  0000 C CNN
+F 2 "Electroencephalograph:L_7.3x7.3_H3.5" H 2500 5500 50  0001 C CNN
+F 3 "~" H 2500 5500 50  0001 C CNN
+	1    2500 5500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2400 5500 2550 5500
-Connection ~ 2400 5500
+	2200 5500 2350 5500
+Connection ~ 2200 5500
 Wire Wire Line
-	2850 5500 3000 5500
-Connection ~ 3000 5500
+	2650 5500 2800 5500
+Connection ~ 2800 5500
 Wire Wire Line
 	6500 2400 7050 2400
 $Comp
@@ -749,8 +736,6 @@ Wire Wire Line
 	5950 4350 5850 4350
 Wire Wire Line
 	5950 4350 5950 4400
-Text Notes 3350 1750 0    59   ~ 12
-Power Supply (TP8) = 5V\nD_VDD (TP9) = 1V8\nA_VDD (TP10) = 1V8\nA_VSS (TP12) = -1V8\nvoltage inverter output (TP11) =-4V5
 $Comp
 L Electroencephalograph:A_GND #PWR?
 U 1 1 5E12EB11
@@ -797,28 +782,76 @@ Wire Wire Line
 Wire Wire Line
 	6250 5500 6500 5500
 Connection ~ 6500 5500
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E14A4FF
-P 2400 1950
-AR Path="/5DF61103/5E14A4FF" Ref="TP?"  Part="1" 
-AR Path="/5E0992D6/5E14A4FF" Ref="TP9"  Part="1" 
-F 0 "TP9" H 2458 2068 50  0000 L CNN
-F 1 "TestPoint" H 2458 1977 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2600 1950 50  0001 C CNN
-F 3 "~" H 2600 1950 50  0001 C CNN
-	1    2400 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 2050 2400 2050
-Wire Wire Line
-	2400 2050 2400 1950
-Connection ~ 2050 2050
 Wire Wire Line
 	6500 5500 7400 5500
 Wire Wire Line
 	6500 3850 7400 3850
 Text Notes 4800 6000 0    59   ~ 12
 TODO: change regulator to one that accepts negative voltages
+Wire Wire Line
+	2200 2050 2200 1950
+Connection ~ 1850 2050
+Wire Wire Line
+	1850 2050 2200 2050
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E14A4FF
+P 2200 1950
+AR Path="/5DF61103/5E14A4FF" Ref="TP?"  Part="1" 
+AR Path="/5E0992D6/5E14A4FF" Ref="TP9"  Part="1" 
+F 0 "TP9" H 2258 2068 50  0000 L CNN
+F 1 "TestPoint" H 2258 1977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2400 1950 50  0001 C CNN
+F 3 "~" H 2400 1950 50  0001 C CNN
+	1    2200 1950
+	1    0    0    -1  
+$EndComp
+Text Notes 3350 1750 0    59   ~ 12
+Power Supply (TP9) = 5V\nD_VDD (TP11) = 1V8\nA_VDD (TP10) = 1V8\nA_VSS (TP12) = -1V8\nvoltage inverter output (TP11) =-4V5
+$Comp
+L Device:C C?
+U 1 1 5E0D7AE2
+P 3100 5250
+AR Path="/5DF4CFF8/5E0D7AE2" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E0D7AE2" Ref="C?"  Part="1" 
+AR Path="/5DFE0AD6/5E0D7AE2" Ref="C?"  Part="1" 
+AR Path="/5E0992D6/5E0D7AE2" Ref="C94"  Part="1" 
+F 0 "C94" H 3215 5296 50  0000 L CNN
+F 1 "1u" H 3215 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3138 5100 50  0001 C CNN
+F 3 "~" H 3100 5250 50  0001 C CNN
+	1    3100 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR?
+U 1 1 5E0D7AE8
+P 3100 5000
+AR Path="/5DFE0AD6/5E0D7AE8" Ref="#PWR?"  Part="1" 
+AR Path="/5E0992D6/5E0D7AE8" Ref="#PWR176"  Part="1" 
+F 0 "#PWR176" H 3100 5025 50  0001 C CNN
+F 1 "A_GND" H 3117 4827 50  0000 C CNN
+F 2 "" H 3100 5025 50  0001 C CNN
+F 3 "" H 3100 5025 50  0001 C CNN
+	1    3100 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3100 5000 3100 5100
+Wire Wire Line
+	3100 5400 3100 5500
+Connection ~ 3100 5500
+Wire Wire Line
+	3100 5500 2800 5500
+$Comp
+L Electroencephalograph:TPS60403 U10
+U 1 1 5E0F81A7
+P 3700 5400
+F 0 "U10" H 3256 5329 50  0000 R CNN
+F 1 "TPS60403" H 3256 5420 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4150 5700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps60402.pdf" H 4150 5700 50  0001 C CNN
+	1    3700 5400
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
