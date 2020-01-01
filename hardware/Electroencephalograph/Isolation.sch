@@ -36,12 +36,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 2600 3950 3200
 Connection ~ 3950 3200
-Text GLabel 4900 2700 2    50   Output ~ 0
-EEG_SCK
-Text GLabel 4900 2800 2    50   Output ~ 0
-EEG_MOSI
-Text GLabel 4900 2900 2    50   Output ~ 0
-EEG_CS
 Text GLabel 4900 3000 2    50   Input ~ 0
 EEG_MISO
 Wire Wire Line
@@ -511,4 +505,10 @@ F 3 "https://www.tme.eu/Document/dbc573554d903d2de79b1454bccf4b94/thi3-datasheet
 	1    3200 4600
 	1    0    0    -1  
 $EndComp
+Text GLabel 4900 2900 2    50   Output ~ 0
+EEG_SCK
+Text GLabel 4900 2700 2    50   Output ~ 0
+EEG_MOSI
+Text GLabel 4900 2800 2    50   Output ~ 0
+EEG_CS
 $EndSCHEMATC
