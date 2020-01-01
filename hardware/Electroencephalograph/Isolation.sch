@@ -222,12 +222,12 @@ $EndComp
 $Comp
 L Electroencephalograph:D_GND #PWR109
 U 1 1 5E03B5A4
-P 5200 5400
-F 0 "#PWR109" H 5200 5425 50  0001 C CNN
-F 1 "D_GND" H 5217 5227 50  0000 C CNN
-F 2 "" H 5200 5425 50  0001 C CNN
-F 3 "" H 5200 5425 50  0001 C CNN
-	1    5200 5400
+P 5700 5400
+F 0 "#PWR109" H 5700 5425 50  0001 C CNN
+F 1 "D_GND" H 5717 5227 50  0000 C CNN
+F 2 "" H 5700 5425 50  0001 C CNN
+F 3 "" H 5700 5425 50  0001 C CNN
+	1    5700 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -237,7 +237,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 5300 4900 5400
 Wire Wire Line
-	5200 5300 5200 5400
+	5700 5300 5700 5400
 Wire Wire Line
 	2800 5200 2650 5200
 Wire Wire Line
@@ -413,9 +413,6 @@ Wire Wire Line
 	1800 4800 1400 4800
 Wire Wire Line
 	4900 5300 5050 5300
-Connection ~ 5050 5300
-Wire Wire Line
-	5050 5300 5200 5300
 $Comp
 L Electroencephalograph:DP_GND #PWR177
 U 1 1 5E1125B9
@@ -511,4 +508,26 @@ Text GLabel 4900 2700 2    50   Output ~ 0
 EEG_MOSI
 Text GLabel 4900 2800 2    50   Output ~ 0
 EEG_CS
+$Comp
+L Device:R R?
+U 1 1 5E15FD88
+P 5350 5300
+AR Path="/5E15FD88" Ref="R?"  Part="1" 
+AR Path="/5DF4CFF8/5E15FD88" Ref="R?"  Part="1" 
+AR Path="/5DF61103/5E15FD88" Ref="R?"  Part="1" 
+AR Path="/5DFE0AD6/5E15FD88" Ref="R?"  Part="1" 
+F 0 "R?" V 5557 5300 50  0000 C CNN
+F 1 "0R" V 5466 5300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 5300 50  0001 C CNN
+F 3 "~" H 5350 5300 50  0001 C CNN
+	1    5350 5300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 5300 5200 5300
+Connection ~ 5050 5300
+Wire Wire Line
+	5500 5300 5700 5300
+Text Notes 5600 5150 0    50   ~ 0
+TODO: remove the resitor, it's just to avoid kicad mistaking A_GND and D_GND
 $EndSCHEMATC
