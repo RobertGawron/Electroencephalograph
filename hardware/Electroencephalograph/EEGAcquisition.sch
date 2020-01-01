@@ -547,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 5300 2600 5850
 Wire Wire Line
-	2600 5850 2100 5850
+	2600 5850 2000 5850
 Wire Wire Line
 	2700 5300 2700 6000
 Wire Wire Line
@@ -591,23 +591,23 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5E170075
-P 2050 5850
-F 0 "TP1" V 2100 6250 50  0000 C CNN
-F 1 "TestPoint" V 2050 6250 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2250 5850 50  0001 C CNN
-F 3 "~" H 2250 5850 50  0001 C CNN
-	1    2050 5850
+P 1950 5850
+F 0 "TP1" V 2000 6250 50  0000 C CNN
+F 1 "TestPoint" V 1950 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2150 5850 50  0001 C CNN
+F 3 "~" H 2150 5850 50  0001 C CNN
+	1    1950 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5E19AC83
-P 2050 6000
-F 0 "TP2" V 2100 6400 50  0000 C CNN
-F 1 "TestPoint" V 2050 6400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2250 6000 50  0001 C CNN
-F 3 "~" H 2250 6000 50  0001 C CNN
-	1    2050 6000
+P 1950 6000
+F 0 "TP2" V 2000 6400 50  0000 C CNN
+F 1 "TestPoint" V 1950 6400 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 2150 6000 50  0001 C CNN
+F 3 "~" H 2150 6000 50  0001 C CNN
+	1    1950 6000
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1050 3600 0    50   Input ~ 0
@@ -1868,12 +1868,12 @@ $EndComp
 $Comp
 L Electroencephalograph:A_VDD #PWR50
 U 1 1 5E36352C
-P 2100 5550
-F 0 "#PWR50" H 2100 5650 50  0001 C CNN
-F 1 "A_VDD" H 2117 5723 50  0000 C CNN
-F 2 "" H 2100 5650 50  0001 C CNN
-F 3 "" H 2100 5650 50  0001 C CNN
-	1    2100 5550
+P 2000 5550
+F 0 "#PWR50" H 2000 5650 50  0001 C CNN
+F 1 "A_VDD" H 2017 5723 50  0000 C CNN
+F 2 "" H 2000 5650 50  0001 C CNN
+F 3 "" H 2000 5650 50  0001 C CNN
+	1    2000 5550
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1890,14 +1890,14 @@ $EndComp
 $Comp
 L Device:Jumper_NC_Small JP?
 U 1 1 5E36438E
-P 2100 5700
+P 2000 5700
 AR Path="/5DFE0AD6/5E36438E" Ref="JP?"  Part="1" 
 AR Path="/5DF61103/5E36438E" Ref="JP17"  Part="1" 
-F 0 "JP17" V 2054 5652 50  0000 R CNN
-F 1 "NC" V 2145 5652 50  0000 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 2100 5700 50  0001 C CNN
-F 3 "~" H 2100 5700 50  0001 C CNN
-	1    2100 5700
+F 0 "JP17" V 1954 5652 50  0000 R CNN
+F 1 "NC" V 2045 5652 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 2000 5700 50  0001 C CNN
+F 3 "~" H 2000 5700 50  0001 C CNN
+	1    2000 5700
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -1914,17 +1914,17 @@ F 3 "~" H 2350 5700 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2100 5550 2100 5600
+	2000 5550 2000 5600
 Wire Wire Line
-	2100 5800 2100 5850
-Connection ~ 2100 5850
+	2000 5800 2000 5850
+Connection ~ 2000 5850
 Wire Wire Line
-	2100 5850 2050 5850
+	2000 5850 1950 5850
 Wire Wire Line
 	2350 5800 2350 6000
 Connection ~ 2350 6000
 Wire Wire Line
-	2350 6000 2050 6000
+	2350 6000 1950 6000
 Wire Wire Line
 	2900 3350 2900 3200
 Text Label 2900 3200 1    50   ~ 0
@@ -1934,4 +1934,6 @@ Wire Wire Line
 Connection ~ 10250 5400
 Text Label 10450 5400 0    50   ~ 0
 OPAMP_MAYBE
+Wire Wire Line
+	2350 5600 2350 5550
 $EndSCHEMATC
