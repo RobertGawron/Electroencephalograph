@@ -5,6 +5,11 @@ D Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements
 K EEG
 $ENDCMP
 #
+$CMP GD25D10BOIGR
+D Serial flash
+K  Serial flash
+$ENDCMP
+#
 $CMP OPA350
 D OPAx350 High-Speed, Single-Supply, Rail-to-Rail Operational Amplifiers MicroAmplifier
 K http://www.ti.com/lit/ds/symlink/opa350.pdf
