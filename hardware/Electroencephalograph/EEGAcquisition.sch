@@ -1936,4 +1936,6 @@ Text Label 10450 5400 0    50   ~ 0
 OPAMP_MAYBE
 Wire Wire Line
 	2350 5600 2350 5550
+Text Notes 8550 2750 0    50   ~ 0
+TODO: \n1. vrefn to vss?\n2. left clk floating?
 $EndSCHEMATC
