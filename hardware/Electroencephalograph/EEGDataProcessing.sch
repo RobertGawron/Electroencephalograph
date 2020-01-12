@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -425,8 +425,6 @@ Wire Wire Line
 	3100 4050 2900 4050
 Wire Wire Line
 	3100 4250 2900 4250
-Text GLabel 2900 4150 0    50   Output ~ 0
-FSYNC
 Wire Wire Line
 	3100 4150 2900 4150
 Text GLabel 4900 3650 2    50   Output ~ 0
@@ -435,8 +433,6 @@ Text GLabel 4900 3750 2    50   Output ~ 0
 SPI1_CS_AMPLIFIER
 Text GLabel 4900 3850 2    50   Output ~ 0
 SPI1_MOSI
-Text GLabel 4900 3150 2    50   Output ~ 0
-REL_3
 Text GLabel 6450 3600 1    50   Input ~ 0
 5V_DIGITAL
 Text GLabel 6100 3600 1    50   Input ~ 0
@@ -451,10 +447,6 @@ Wire Wire Line
 	6450 4000 6450 4050
 Text GLabel 6600 4050 2    50   Input ~ 0
 SCL
-Text GLabel 2900 4350 0    50   Input ~ 0
-ROT_A
-Text GLabel 2900 4250 0    50   Input ~ 0
-ROT_B
 Text GLabel 2900 4450 0    50   Input ~ 0
 ROT_S
 Wire Wire Line
@@ -463,16 +455,6 @@ Wire Wire Line
 	6450 3700 6450 3600
 Text GLabel 6600 4150 2    50   BiDi ~ 0
 SDA
-Text GLabel 4900 3250 2    50   Output ~ 0
-REL_2
-Text GLabel 4900 3350 2    50   Output ~ 0
-REL_1
-Text GLabel 2900 4050 0    50   Output ~ 0
-FSELECT
-Text GLabel 4900 3450 2    50   Output ~ 0
-PSEL1
-Text GLabel 4900 3550 2    50   Output ~ 0
-PSEL0
 $Comp
 L Device:R R?
 U 1 1 5DC4D139
@@ -765,4 +747,76 @@ Wire Wire Line
 	9550 1450 9550 1350
 Wire Wire Line
 	9150 2150 9550 2150
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E21FE22
+P 5550 5800
+AR Path="/5DF61103/5E21FE22" Ref="TP?"  Part="1" 
+AR Path="/5E142744/5E21FE22" Ref="TP16"  Part="1" 
+F 0 "TP16" V 5504 5988 50  0000 L CNN
+F 1 "TestPoint" V 5595 5988 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5800 50  0001 C CNN
+F 3 "~" H 5750 5800 50  0001 C CNN
+	1    5550 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E21FE28
+P 5550 5600
+AR Path="/5DF61103/5E21FE28" Ref="TP?"  Part="1" 
+AR Path="/5E142744/5E21FE28" Ref="TP15"  Part="1" 
+F 0 "TP15" V 5504 5788 50  0000 L CNN
+F 1 "TestPoint" V 5595 5788 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5600 50  0001 C CNN
+F 3 "~" H 5750 5600 50  0001 C CNN
+	1    5550 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E21FE2E
+P 5550 5400
+AR Path="/5DF61103/5E21FE2E" Ref="TP?"  Part="1" 
+AR Path="/5E142744/5E21FE2E" Ref="TP14"  Part="1" 
+F 0 "TP14" V 5504 5588 50  0000 L CNN
+F 1 "TestPoint" V 5595 5588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5400 50  0001 C CNN
+F 3 "~" H 5750 5400 50  0001 C CNN
+	1    5550 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E21FE34
+P 5550 5200
+AR Path="/5DF61103/5E21FE34" Ref="TP?"  Part="1" 
+AR Path="/5E142744/5E21FE34" Ref="TP8"  Part="1" 
+F 0 "TP8" V 5504 5388 50  0000 L CNN
+F 1 "TestPoint" V 5595 5388 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5200 50  0001 C CNN
+F 3 "~" H 5750 5200 50  0001 C CNN
+	1    5550 5200
+	0    1    1    0   
+$EndComp
+Text GLabel 2900 4350 0    50   Input ~ 0
+ROT_A
+Text GLabel 2900 4250 0    50   Input ~ 0
+ROT_B
+Text GLabel 2900 4150 0    50   Output ~ 0
+FSYNC
+Text GLabel 2900 4050 0    50   Output ~ 0
+FSELECT
+Text GLabel 4900 3550 2    50   Output ~ 0
+PSEL0
+Text GLabel 4900 3450 2    50   Output ~ 0
+PSEL1
+Text GLabel 4900 3350 2    50   Output ~ 0
+REL_1
+Text GLabel 4900 3250 2    50   Output ~ 0
+REL_2
+Text GLabel 4900 3150 2    50   Output ~ 0
+REL_3
+Text Notes 5550 4950 0    50   ~ 10
+test points for spi
 $EndSCHEMATC
