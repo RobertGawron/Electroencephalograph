@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -1870,5 +1870,36 @@ Connection ~ 3700 3250
 Wire Wire Line
 	3700 3250 3700 3350
 Wire Wire Line
-	2200 1550 2950 1550
+	2200 1550 2500 1550
+$Comp
+L Device:C C?
+U 1 1 5E1CE028
+P 2500 1750
+AR Path="/5DF4CFF8/5E1CE028" Ref="C?"  Part="1" 
+AR Path="/5DF61103/5E1CE028" Ref="C29"  Part="1" 
+F 0 "C29" H 2385 1704 50  0000 R CNN
+F 1 "2u2" H 2385 1795 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2538 1600 50  0001 C CNN
+F 3 "~" H 2500 1750 50  0001 C CNN
+	1    2500 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Electroencephalograph:A_GND #PWR54
+U 1 1 5E1CE02E
+P 2500 1950
+F 0 "#PWR54" H 2500 1975 50  0001 C CNN
+F 1 "A_GND" H 2517 1777 50  0000 C CNN
+F 2 "" H 2500 1975 50  0001 C CNN
+F 3 "" H 2500 1975 50  0001 C CNN
+	1    2500 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1950 2500 1900
+Wire Wire Line
+	2500 1600 2500 1550
+Connection ~ 2500 1550
+Wire Wire Line
+	2500 1550 2950 1550
 $EndSCHEMATC

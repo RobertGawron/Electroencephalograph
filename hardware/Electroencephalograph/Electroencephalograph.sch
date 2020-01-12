@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -49,5 +49,11 @@ S 1300 1800 500  150
 U 5E312944
 F0 "EEGFrontendElectrode5To8" 50
 F1 "EEGFrontendElectrode5To8.sch" 50
+$EndSheet
+$Sheet
+S 2050 2600 500  150 
+U 5E27E78E
+F0 "ComputerInterface" 50
+F1 "ComputerInterface.sch" 50
 $EndSheet
 $EndSCHEMATC
