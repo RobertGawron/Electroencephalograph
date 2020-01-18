@@ -427,12 +427,6 @@ Wire Wire Line
 	3100 4250 2900 4250
 Wire Wire Line
 	3100 4150 2900 4150
-Text GLabel 4900 3650 2    50   Output ~ 0
-SPI1_SCK
-Text GLabel 4900 3750 2    50   Output ~ 0
-SPI1_CS_AMPLIFIER
-Text GLabel 4900 3850 2    50   Output ~ 0
-SPI1_MOSI
 Text GLabel 6450 3600 1    50   Input ~ 0
 5V_DIGITAL
 Text GLabel 6100 3600 1    50   Input ~ 0
@@ -447,8 +441,6 @@ Wire Wire Line
 	6450 4000 6450 4050
 Text GLabel 6600 4050 2    50   Input ~ 0
 SCL
-Text GLabel 2900 4450 0    50   Input ~ 0
-ROT_S
 Wire Wire Line
 	6100 3700 6100 3600
 Wire Wire Line
@@ -517,8 +509,6 @@ Wire Wire Line
 	4900 3150 4200 3150
 Wire Wire Line
 	4900 3250 4200 3250
-Text Notes 1350 3150 0    50   ~ 10
-5v -> 3v3
 Wire Wire Line
 	3100 4550 2950 4550
 Wire Wire Line
@@ -526,12 +516,12 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x04_Female J4
 U 1 1 5E096F60
-P 9400 4850
-F 0 "J4" H 9428 4734 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 9428 4825 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9400 4850 50  0001 C CNN
-F 3 "~" H 9400 4850 50  0001 C CNN
-	1    9400 4850
+P 1400 7200
+F 0 "J4" H 1428 7084 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 1428 7175 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1400 7200 50  0001 C CNN
+F 3 "~" H 1400 7200 50  0001 C CNN
+	1    1400 7200
 	-1   0    0    1   
 $EndComp
 Text Label 2950 4550 2    50   ~ 0
@@ -541,89 +531,89 @@ USART_RX
 $Comp
 L power:GND #PWR?
 U 1 1 5E09BA01
-P 9700 5000
+P 1700 7350
 AR Path="/5E09BA01" Ref="#PWR?"  Part="1" 
 AR Path="/5DAEEEF4/5E09BA01" Ref="#PWR?"  Part="1" 
 AR Path="/5DD5C7F6/5E09BA01" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E09BA01" Ref="#PWR0191"  Part="1" 
-F 0 "#PWR0191" H 9700 4750 50  0001 C CNN
-F 1 "GND" H 9705 4827 50  0000 C CNN
-F 2 "" H 9700 5000 50  0001 C CNN
-F 3 "" H 9700 5000 50  0001 C CNN
-	1    9700 5000
+F 0 "#PWR0191" H 1700 7100 50  0001 C CNN
+F 1 "GND" H 1705 7177 50  0000 C CNN
+F 2 "" H 1700 7350 50  0001 C CNN
+F 3 "" H 1700 7350 50  0001 C CNN
+	1    1700 7350
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9700 4550 1    50   Input ~ 0
+Text GLabel 1700 6900 1    50   Input ~ 0
 5V_DIGITAL
 Wire Wire Line
-	9600 4650 9700 4650
+	1600 7000 1700 7000
 Wire Wire Line
-	9700 4650 9700 4550
+	1700 7000 1700 6900
 Wire Wire Line
-	9700 4950 9700 5000
+	1700 7300 1700 7350
 Wire Wire Line
-	9600 4950 9700 4950
+	1600 7300 1700 7300
 Wire Wire Line
-	9600 4750 9700 4750
+	1600 7100 1700 7100
 Wire Wire Line
-	9600 4850 9700 4850
-Text Label 9700 4850 0    50   ~ 0
+	1600 7200 1700 7200
+Text Label 1700 7200 0    50   ~ 0
 USART_TX
-Text Label 9700 4750 0    50   ~ 0
+Text Label 1700 7100 0    50   ~ 0
 USART_RX
 Wire Wire Line
 	2900 4450 3100 4450
 $Comp
 L Device:C C?
 U 1 1 5E141D2A
-P 9550 2350
+P 3750 7250
 AR Path="/5E141D2A" Ref="C?"  Part="1" 
 AR Path="/5DAEEEF4/5E141D2A" Ref="C?"  Part="1" 
 AR Path="/5DD5C7F6/5E141D2A" Ref="C?"  Part="1" 
 AR Path="/5E142744/5E141D2A" Ref="C104"  Part="1" 
-F 0 "C104" H 9665 2396 50  0000 L CNN
-F 1 "100n" H 9665 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9588 2200 50  0001 C CNN
-F 3 "~" H 9550 2350 50  0001 C CNN
-	1    9550 2350
+F 0 "C104" H 3865 7296 50  0000 L CNN
+F 1 "100n" H 3865 7205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3788 7100 50  0001 C CNN
+F 3 "~" H 3750 7250 50  0001 C CNN
+	1    3750 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E141D24
-P 9550 2550
+P 3750 7450
 AR Path="/5E141D24" Ref="#PWR?"  Part="1" 
 AR Path="/5DAEEEF4/5E141D24" Ref="#PWR?"  Part="1" 
 AR Path="/5DD5C7F6/5E141D24" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E141D24" Ref="#PWR0190"  Part="1" 
-F 0 "#PWR0190" H 9550 2300 50  0001 C CNN
-F 1 "GND" H 9555 2377 50  0000 C CNN
-F 2 "" H 9550 2550 50  0001 C CNN
-F 3 "" H 9550 2550 50  0001 C CNN
-	1    9550 2550
+F 0 "#PWR0190" H 3750 7200 50  0001 C CNN
+F 1 "GND" H 3755 7277 50  0000 C CNN
+F 2 "" H 3750 7450 50  0001 C CNN
+F 3 "" H 3750 7450 50  0001 C CNN
+	1    3750 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 2550 9550 2500
+	3750 7450 3750 7400
 Wire Wire Line
 	3100 3150 2950 3150
 Wire Wire Line
-	10250 2150 9550 2150
+	4450 7050 3750 7050
 Wire Wire Line
-	9550 2150 9550 2200
+	3750 7050 3750 7100
 $Comp
 L Device:R R?
 U 1 1 5E14DFB6
-P 9550 1600
+P 3750 6500
 AR Path="/5E14DFB6" Ref="R?"  Part="1" 
 AR Path="/5DAEEEF4/5E14DFB6" Ref="R?"  Part="1" 
 AR Path="/5DD5C7F6/5E14DFB6" Ref="R?"  Part="1" 
 AR Path="/5E142744/5E14DFB6" Ref="R75"  Part="1" 
-F 0 "R75" H 9620 1646 50  0000 L CNN
-F 1 "10k" H 9620 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9480 1600 50  0001 C CNN
-F 3 "~" H 9550 1600 50  0001 C CNN
-	1    9550 1600
+F 0 "R75" H 3820 6546 50  0000 L CNN
+F 1 "10k" H 3820 6455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3680 6500 50  0001 C CNN
+F 3 "~" H 3750 6500 50  0001 C CNN
+	1    3750 6500
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -663,160 +653,107 @@ NRST
 $Comp
 L Device:R R?
 U 1 1 5E16B8CB
-P 9950 1850
+P 4150 6750
 AR Path="/5E16B8CB" Ref="R?"  Part="1" 
 AR Path="/5DAEEEF4/5E16B8CB" Ref="R?"  Part="1" 
 AR Path="/5DD5C7F6/5E16B8CB" Ref="R?"  Part="1" 
 AR Path="/5E142744/5E16B8CB" Ref="R76"  Part="1" 
-F 0 "R76" V 10157 1850 50  0000 C CNN
-F 1 "220R" V 10066 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9880 1850 50  0001 C CNN
-F 3 "~" H 9950 1850 50  0001 C CNN
-	1    9950 1850
+F 0 "R76" V 4357 6750 50  0000 C CNN
+F 1 "220R" V 4266 6750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4080 6750 50  0001 C CNN
+F 3 "~" H 4150 6750 50  0001 C CNN
+	1    4150 6750
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E16BA22
-P 9950 1950
+P 4150 6850
 AR Path="/5E16BA22" Ref="R?"  Part="1" 
 AR Path="/5DAEEEF4/5E16BA22" Ref="R?"  Part="1" 
 AR Path="/5DD5C7F6/5E16BA22" Ref="R?"  Part="1" 
 AR Path="/5E142744/5E16BA22" Ref="R77"  Part="1" 
-F 0 "R77" V 9850 1800 50  0000 C CNN
-F 1 "220R" V 9850 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9880 1950 50  0001 C CNN
-F 3 "~" H 9950 1950 50  0001 C CNN
-	1    9950 1950
+F 0 "R77" V 4050 6700 50  0000 C CNN
+F 1 "220R" V 4050 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4080 6850 50  0001 C CNN
+F 3 "~" H 4150 6850 50  0001 C CNN
+	1    4150 6850
 	0    1    -1   0   
 $EndComp
 Text Label 4900 4450 0    50   ~ 0
 SWDIO
 Text Label 4900 4550 0    50   ~ 0
 SWCLK
-Text Label 10200 1950 0    50   ~ 0
+Text Label 4400 6850 0    50   ~ 0
 SWCLK
-Text Label 10200 1850 0    50   ~ 0
+Text Label 4400 6750 0    50   ~ 0
 SWDIO
-Text Label 10250 2150 0    50   ~ 0
+Text Label 4450 7050 0    50   ~ 0
 NRST
-Text GLabel 9550 1350 1    50   Input ~ 0
+Text GLabel 3750 6250 1    50   Input ~ 0
 5V_DIGITAL
 $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 5E16D3D6
-P 8950 2050
-F 0 "J3" H 8978 1934 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 8978 2025 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8950 2050 50  0001 C CNN
-F 3 "~" H 8950 2050 50  0001 C CNN
-	1    8950 2050
+P 3150 6950
+F 0 "J3" H 3178 6834 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 3178 6925 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3150 6950 50  0001 C CNN
+F 3 "~" H 3150 6950 50  0001 C CNN
+	1    3150 6950
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E17610B
-P 9300 2550
+P 3500 7450
 AR Path="/5E17610B" Ref="#PWR?"  Part="1" 
 AR Path="/5DAEEEF4/5E17610B" Ref="#PWR?"  Part="1" 
 AR Path="/5DD5C7F6/5E17610B" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E17610B" Ref="#PWR0189"  Part="1" 
-F 0 "#PWR0189" H 9300 2300 50  0001 C CNN
-F 1 "GND" H 9305 2377 50  0000 C CNN
-F 2 "" H 9300 2550 50  0001 C CNN
-F 3 "" H 9300 2550 50  0001 C CNN
-	1    9300 2550
+F 0 "#PWR0189" H 3500 7200 50  0001 C CNN
+F 1 "GND" H 3505 7277 50  0000 C CNN
+F 2 "" H 3500 7450 50  0001 C CNN
+F 3 "" H 3500 7450 50  0001 C CNN
+	1    3500 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 2050 9300 2050
+	3350 6950 3500 6950
 Wire Wire Line
-	9300 2050 9300 2550
+	3500 6950 3500 7450
 Wire Wire Line
-	9150 1850 9800 1850
+	3350 6750 4000 6750
 Wire Wire Line
-	9150 1950 9800 1950
+	3350 6850 4000 6850
 Wire Wire Line
-	10100 1850 10200 1850
+	4300 6750 4400 6750
 Wire Wire Line
-	10100 1950 10200 1950
+	4300 6850 4400 6850
 Wire Wire Line
-	9550 2150 9550 1750
-Connection ~ 9550 2150
+	3750 7050 3750 6650
+Connection ~ 3750 7050
 Wire Wire Line
-	9550 1450 9550 1350
+	3750 6350 3750 6250
 Wire Wire Line
-	9150 2150 9550 2150
+	3350 7050 3750 7050
+Text GLabel 4900 3650 2    50   Input ~ 0
+SCK
+Text GLabel 4900 3850 2    50   Input ~ 0
+MOSI
+Text GLabel 2900 4050 0    50   Input ~ 0
+CS
+Text GLabel 4900 3750 2    50   Output ~ 0
+MISO
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5E21FE22
-P 5550 5800
-AR Path="/5DF61103/5E21FE22" Ref="TP?"  Part="1" 
-AR Path="/5E142744/5E21FE22" Ref="TP16"  Part="1" 
-F 0 "TP16" V 5504 5988 50  0000 L CNN
-F 1 "TestPoint" V 5595 5988 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5800 50  0001 C CNN
-F 3 "~" H 5750 5800 50  0001 C CNN
-	1    5550 5800
-	0    1    1    0   
+L Electroencephalograph:GD25D10BOIGR U11
+U 1 1 5E308455
+P 7950 3000
+F 0 "U11" H 7925 3075 50  0000 C CNN
+F 1 "GD25D10BOIGR" H 7925 2984 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7950 3000 50  0001 C CNN
+F 3 "" H 7950 3000 50  0001 C CNN
+	1    7950 3000
+	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E21FE28
-P 5550 5600
-AR Path="/5DF61103/5E21FE28" Ref="TP?"  Part="1" 
-AR Path="/5E142744/5E21FE28" Ref="TP15"  Part="1" 
-F 0 "TP15" V 5504 5788 50  0000 L CNN
-F 1 "TestPoint" V 5595 5788 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5600 50  0001 C CNN
-F 3 "~" H 5750 5600 50  0001 C CNN
-	1    5550 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E21FE2E
-P 5550 5400
-AR Path="/5DF61103/5E21FE2E" Ref="TP?"  Part="1" 
-AR Path="/5E142744/5E21FE2E" Ref="TP14"  Part="1" 
-F 0 "TP14" V 5504 5588 50  0000 L CNN
-F 1 "TestPoint" V 5595 5588 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5400 50  0001 C CNN
-F 3 "~" H 5750 5400 50  0001 C CNN
-	1    5550 5400
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5E21FE34
-P 5550 5200
-AR Path="/5DF61103/5E21FE34" Ref="TP?"  Part="1" 
-AR Path="/5E142744/5E21FE34" Ref="TP8"  Part="1" 
-F 0 "TP8" V 5504 5388 50  0000 L CNN
-F 1 "TestPoint" V 5595 5388 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5750 5200 50  0001 C CNN
-F 3 "~" H 5750 5200 50  0001 C CNN
-	1    5550 5200
-	0    1    1    0   
-$EndComp
-Text GLabel 2900 4350 0    50   Input ~ 0
-ROT_A
-Text GLabel 2900 4250 0    50   Input ~ 0
-ROT_B
-Text GLabel 2900 4150 0    50   Output ~ 0
-FSYNC
-Text GLabel 2900 4050 0    50   Output ~ 0
-FSELECT
-Text GLabel 4900 3550 2    50   Output ~ 0
-PSEL0
-Text GLabel 4900 3450 2    50   Output ~ 0
-PSEL1
-Text GLabel 4900 3350 2    50   Output ~ 0
-REL_1
-Text GLabel 4900 3250 2    50   Output ~ 0
-REL_2
-Text GLabel 4900 3150 2    50   Output ~ 0
-REL_3
-Text Notes 5550 4950 0    50   ~ 10
-test points for spi
 $EndSCHEMATC

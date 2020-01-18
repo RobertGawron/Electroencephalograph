@@ -121,39 +121,37 @@ Wire Wire Line
 	3150 2600 3100 2600
 Wire Wire Line
 	3100 2600 3100 3200
-Text GLabel 1750 2700 0    50   Input ~ 0
+Text GLabel 1150 2700 0    50   Input ~ 0
 SCK
-Text GLabel 1750 2800 0    50   Input ~ 0
+Text GLabel 1150 2800 0    50   Input ~ 0
 MOSI
-Text GLabel 1750 2900 0    50   Input ~ 0
+Text GLabel 1150 2900 0    50   Input ~ 0
 CS
-Text GLabel 1750 3000 0    50   Output ~ 0
+Text GLabel 1150 3000 0    50   Output ~ 0
 MISO
 Wire Wire Line
-	3150 2700 1750 2700
+	3150 2700 2350 2700
 Wire Wire Line
-	3150 2800 1750 2800
+	3150 2800 2150 2800
 Wire Wire Line
-	3150 2900 1750 2900
+	3150 2900 1950 2900
+Connection ~ 1500 2500
 Wire Wire Line
-	3150 3000 1750 3000
-Connection ~ 2100 2500
+	1500 2500 1500 2400
 Wire Wire Line
-	2100 2500 2100 2400
-Wire Wire Line
-	2100 2500 2100 3050
+	1500 2500 1500 3050
 $Comp
 L Device:C C?
 U 1 1 5E028BA8
-P 2100 3200
+P 1500 3200
 AR Path="/5DF4CFF8/5E028BA8" Ref="C?"  Part="1" 
 AR Path="/5DF61103/5E028BA8" Ref="C?"  Part="1" 
 AR Path="/5DFE0AD6/5E028BA8" Ref="C51"  Part="1" 
-F 0 "C51" H 2215 3246 50  0000 L CNN
-F 1 "100n" H 2215 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2138 3050 50  0001 C CNN
-F 3 "~" H 2100 3200 50  0001 C CNN
-	1    2100 3200
+F 0 "C51" H 1615 3246 50  0000 L CNN
+F 1 "100n" H 1615 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1538 3050 50  0001 C CNN
+F 3 "~" H 1500 3200 50  0001 C CNN
+	1    1500 3200
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -382,12 +380,12 @@ $EndComp
 $Comp
 L Electroencephalograph:DP_VDD #PWR101
 U 1 1 5E02F433
-P 2100 2400
-F 0 "#PWR101" H 2100 2525 50  0001 C CNN
-F 1 "DP_VDD" H 2117 2573 50  0000 C CNN
-F 2 "" H 2100 2525 50  0001 C CNN
-F 3 "" H 2100 2525 50  0001 C CNN
-	1    2100 2400
+P 1500 2400
+F 0 "#PWR101" H 1500 2525 50  0001 C CNN
+F 1 "DP_VDD" H 1517 2573 50  0000 C CNN
+F 2 "" H 1500 2525 50  0001 C CNN
+F 3 "" H 1500 2525 50  0001 C CNN
+	1    1500 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -454,12 +452,12 @@ Wire Wire Line
 $Comp
 L Electroencephalograph:DP_GND #PWR102
 U 1 1 5E02EFAB
-P 2100 3400
-F 0 "#PWR102" H 2100 3425 50  0001 C CNN
-F 1 "DP_GND" H 2117 3227 50  0000 C CNN
-F 2 "" H 2100 3425 50  0001 C CNN
-F 3 "" H 2100 3425 50  0001 C CNN
-	1    2100 3400
+P 1500 3400
+F 0 "#PWR102" H 1500 3425 50  0001 C CNN
+F 1 "DP_GND" H 1517 3227 50  0000 C CNN
+F 2 "" H 1500 3425 50  0001 C CNN
+F 3 "" H 1500 3425 50  0001 C CNN
+	1    1500 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -474,7 +472,7 @@ F 3 "" H 3100 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 3400 2100 3350
+	1500 3400 1500 3350
 Connection ~ 3100 3200
 Wire Wire Line
 	3100 3200 3100 3400
@@ -558,7 +556,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3050 2500 2500
 Wire Wire Line
-	2100 2500 2500 2500
+	1500 2500 2500 2500
 Connection ~ 2500 2500
 Wire Wire Line
 	2500 2500 2650 2500
@@ -596,4 +594,82 @@ Wire Wire Line
 Connection ~ 4650 2500
 Wire Wire Line
 	4650 2500 5050 2500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E2E87E0
+P 2350 2400
+AR Path="/5DF61103/5E2E87E0" Ref="TP?"  Part="1" 
+AR Path="/5E142744/5E2E87E0" Ref="TP?"  Part="1" 
+AR Path="/5DFE0AD6/5E2E87E0" Ref="TP16"  Part="1" 
+F 0 "TP16" V 2304 2588 50  0000 L CNN
+F 1 "TestPoint" V 2395 2588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2550 2400 50  0001 C CNN
+F 3 "~" H 2550 2400 50  0001 C CNN
+	1    2350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E2E87E6
+P 2150 2400
+AR Path="/5DF61103/5E2E87E6" Ref="TP?"  Part="1" 
+AR Path="/5E142744/5E2E87E6" Ref="TP?"  Part="1" 
+AR Path="/5DFE0AD6/5E2E87E6" Ref="TP15"  Part="1" 
+F 0 "TP15" V 2104 2588 50  0000 L CNN
+F 1 "TestPoint" V 2195 2588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2350 2400 50  0001 C CNN
+F 3 "~" H 2350 2400 50  0001 C CNN
+	1    2150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E2E87EC
+P 1950 2400
+AR Path="/5DF61103/5E2E87EC" Ref="TP?"  Part="1" 
+AR Path="/5E142744/5E2E87EC" Ref="TP?"  Part="1" 
+AR Path="/5DFE0AD6/5E2E87EC" Ref="TP14"  Part="1" 
+F 0 "TP14" V 1904 2588 50  0000 L CNN
+F 1 "TestPoint" V 1995 2588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2150 2400 50  0001 C CNN
+F 3 "~" H 2150 2400 50  0001 C CNN
+	1    1950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5E2E87F2
+P 1750 2400
+AR Path="/5DF61103/5E2E87F2" Ref="TP?"  Part="1" 
+AR Path="/5E142744/5E2E87F2" Ref="TP?"  Part="1" 
+AR Path="/5DFE0AD6/5E2E87F2" Ref="TP8"  Part="1" 
+F 0 "TP8" V 1704 2588 50  0000 L CNN
+F 1 "TestPoint" V 1795 2588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1950 2400 50  0001 C CNN
+F 3 "~" H 1950 2400 50  0001 C CNN
+	1    1750 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2400 2350 2700
+Connection ~ 2350 2700
+Wire Wire Line
+	2350 2700 1150 2700
+Wire Wire Line
+	2150 2400 2150 2800
+Connection ~ 2150 2800
+Wire Wire Line
+	2150 2800 1150 2800
+Wire Wire Line
+	1950 2400 1950 2900
+Connection ~ 1950 2900
+Wire Wire Line
+	1950 2900 1150 2900
+Wire Wire Line
+	1750 2400 1750 3000
+Wire Wire Line
+	1150 3000 1750 3000
+Connection ~ 1750 3000
+Wire Wire Line
+	1750 3000 3150 3000
 $EndSCHEMATC
