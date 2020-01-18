@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1300 1200 650  250 
+S 1300 1300 650  250 
 U 5DF4CFF8
 F0 "EEGFrontendElectrode1To4" 50
 F1 "EEGFrontendElectrode1To4.sch" 50
@@ -45,13 +45,13 @@ F0 "EEGPowerSupply" 50
 F1 "EEGPowerSupply.sch" 50
 $EndSheet
 $Sheet
-S 1300 1800 500  150 
+S 1300 1900 500  150 
 U 5E312944
 F0 "EEGFrontendElectrode5To8" 50
 F1 "EEGFrontendElectrode5To8.sch" 50
 $EndSheet
 $Sheet
-S 2050 2600 500  150 
+S 6100 1600 500  150 
 U 5E27E78E
 F0 "ComputerInterface" 50
 F1 "ComputerInterface.sch" 50
