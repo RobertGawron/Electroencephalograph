@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
-Title ""
+Title "Input protection for body connected electrodes (part1)"
 Date ""
-Rev ""
-Comp ""
+Rev "1.0"
+Comp "MIT License"
 Comment1 ""
 Comment2 ""
 Comment3 ""

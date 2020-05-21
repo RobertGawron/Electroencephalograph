@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
-Title ""
+Title "EEG analog to digital conversion"
 Date ""
-Rev ""
-Comp ""
+Rev "1.0"
+Comp "MIT License"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1902,4 +1902,20 @@ Wire Wire Line
 Connection ~ 2500 1550
 Wire Wire Line
 	2500 1550 2950 1550
+Wire Wire Line
+	2700 3350 2700 2850
+Wire Wire Line
+	2800 3350 2800 2850
+Wire Wire Line
+	3000 3350 3000 2850
+NoConn ~ 3000 2850
+NoConn ~ 2800 2850
+NoConn ~ 2700 2850
+Text Notes 1750 2650 0    50   ~ 10
+TODO connect bellow pins to somewhere
+Wire Wire Line
+	10100 5200 10300 5200
+NoConn ~ 10300 5200
+Text Notes 9350 4300 0    50   ~ 10
+TODO this part doesn't have sense
 $EndSCHEMATC

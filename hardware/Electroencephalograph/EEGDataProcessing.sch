@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
-Title ""
+Title "EEG signal processing"
 Date ""
-Rev ""
-Comp ""
+Rev "1.0"
+Comp "MIT License"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -28,7 +28,7 @@ $EndComp
 Wire Wire Line
 	4850 2700 4850 2650
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5DC51E49
 P 4850 2700
 AR Path="/5DC51E49" Ref="#PWR?"  Part="1" 
@@ -36,7 +36,7 @@ AR Path="/5DAEEEF4/5DC51E49" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5DC51E49" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5DC51E49" Ref="#PWR0185"  Part="1" 
 F 0 "#PWR0185" H 4850 2450 50  0001 C CNN
-F 1 "GND" H 4855 2527 50  0000 C CNN
+F 1 "DP_GND" H 4855 2527 50  0000 C CNN
 F 2 "" H 4850 2700 50  0001 C CNN
 F 3 "" H 4850 2700 50  0001 C CNN
 	1    4850 2700
@@ -58,7 +58,7 @@ F 3 "~" H 4850 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5DDA3F66
 P 3650 4950
 AR Path="/5DDA3F66" Ref="#PWR?"  Part="1" 
@@ -66,7 +66,7 @@ AR Path="/5DAEEEF4/5DDA3F66" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5DDA3F66" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5DDA3F66" Ref="#PWR0182"  Part="1" 
 F 0 "#PWR0182" H 3650 4700 50  0001 C CNN
-F 1 "GND" H 3655 4777 50  0000 C CNN
+F 1 "DP_GND" H 3655 4777 50  0000 C CNN
 F 2 "" H 3650 4950 50  0001 C CNN
 F 3 "" H 3650 4950 50  0001 C CNN
 	1    3650 4950
@@ -89,7 +89,7 @@ NoConn ~ 4200 4650
 Wire Wire Line
 	4050 2700 4050 2650
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E0D2F09
 P 4050 2700
 AR Path="/5E0D2F09" Ref="#PWR?"  Part="1" 
@@ -97,7 +97,7 @@ AR Path="/5DAEEEF4/5E0D2F09" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E0D2F09" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E0D2F09" Ref="#PWR0183"  Part="1" 
 F 0 "#PWR0183" H 4050 2450 50  0001 C CNN
-F 1 "GND" H 4055 2527 50  0000 C CNN
+F 1 "DP_GND" H 4055 2527 50  0000 C CNN
 F 2 "" H 4050 2700 50  0001 C CNN
 F 3 "" H 4050 2700 50  0001 C CNN
 	1    4050 2700
@@ -121,7 +121,7 @@ $EndComp
 Wire Wire Line
 	5650 2700 5650 2650
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E0D4A69
 P 5650 2700
 AR Path="/5E0D4A69" Ref="#PWR?"  Part="1" 
@@ -129,7 +129,7 @@ AR Path="/5DAEEEF4/5E0D4A69" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E0D4A69" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E0D4A69" Ref="#PWR0187"  Part="1" 
 F 0 "#PWR0187" H 5650 2450 50  0001 C CNN
-F 1 "GND" H 5655 2527 50  0000 C CNN
+F 1 "DP_GND" H 5655 2527 50  0000 C CNN
 F 2 "" H 5650 2700 50  0001 C CNN
 F 3 "" H 5650 2700 50  0001 C CNN
 	1    5650 2700
@@ -188,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2700 4450 2650
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E0F5071
 P 4450 2700
 AR Path="/5E0F5071" Ref="#PWR?"  Part="1" 
@@ -196,7 +196,7 @@ AR Path="/5DAEEEF4/5E0F5071" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E0F5071" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E0F5071" Ref="#PWR0184"  Part="1" 
 F 0 "#PWR0184" H 4450 2450 50  0001 C CNN
-F 1 "GND" H 4455 2527 50  0000 C CNN
+F 1 "DP_GND" H 4455 2527 50  0000 C CNN
 F 2 "" H 4450 2700 50  0001 C CNN
 F 3 "" H 4450 2700 50  0001 C CNN
 	1    4450 2700
@@ -220,7 +220,7 @@ $EndComp
 Wire Wire Line
 	5250 2700 5250 2650
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E0F8553
 P 5250 2700
 AR Path="/5E0F8553" Ref="#PWR?"  Part="1" 
@@ -228,7 +228,7 @@ AR Path="/5DAEEEF4/5E0F8553" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E0F8553" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E0F8553" Ref="#PWR0186"  Part="1" 
 F 0 "#PWR0186" H 5250 2450 50  0001 C CNN
-F 1 "GND" H 5255 2527 50  0000 C CNN
+F 1 "DP_GND" H 5255 2527 50  0000 C CNN
 F 2 "" H 5250 2700 50  0001 C CNN
 F 3 "" H 5250 2700 50  0001 C CNN
 	1    5250 2700
@@ -271,7 +271,7 @@ F 3 "~" H 6250 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E1043B2
 P 6250 2700
 AR Path="/5E1043B2" Ref="#PWR?"  Part="1" 
@@ -279,7 +279,7 @@ AR Path="/5DAEEEF4/5E1043B2" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E1043B2" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E1043B2" Ref="#PWR0188"  Part="1" 
 F 0 "#PWR0188" H 6250 2450 50  0001 C CNN
-F 1 "GND" H 6255 2527 50  0000 C CNN
+F 1 "DP_GND" H 6255 2527 50  0000 C CNN
 F 2 "" H 6250 2700 50  0001 C CNN
 F 3 "" H 6250 2700 50  0001 C CNN
 	1    6250 2700
@@ -299,7 +299,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 3800 2050 3800
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E11C657
 P 2050 4100
 AR Path="/5E11C657" Ref="#PWR?"  Part="1" 
@@ -307,14 +307,14 @@ AR Path="/5DAEEEF4/5E11C657" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E11C657" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E11C657" Ref="#PWR0180"  Part="1" 
 F 0 "#PWR0180" H 2050 3850 50  0001 C CNN
-F 1 "GND" H 2055 3927 50  0000 C CNN
+F 1 "DP_GND" H 2055 3927 50  0000 C CNN
 F 2 "" H 2050 4100 50  0001 C CNN
 F 3 "" H 2050 4100 50  0001 C CNN
 	1    2050 4100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E11C32E
 P 1550 4100
 AR Path="/5E11C32E" Ref="#PWR?"  Part="1" 
@@ -322,7 +322,7 @@ AR Path="/5DAEEEF4/5E11C32E" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E11C32E" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E11C32E" Ref="#PWR0179"  Part="1" 
 F 0 "#PWR0179" H 1550 3850 50  0001 C CNN
-F 1 "GND" H 1555 3927 50  0000 C CNN
+F 1 "DP_GND" H 1555 3927 50  0000 C CNN
 F 2 "" H 1550 4100 50  0001 C CNN
 F 3 "" H 1550 4100 50  0001 C CNN
 	1    1550 4100
@@ -390,7 +390,7 @@ F 3 "~" H 1300 3550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5DC9B8ED
 P 1000 3850
 AR Path="/5DC9B8ED" Ref="#PWR?"  Part="1" 
@@ -398,7 +398,7 @@ AR Path="/5DAEEEF4/5DC9B8ED" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5DC9B8ED" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5DC9B8ED" Ref="#PWR0178"  Part="1" 
 F 0 "#PWR0178" H 1000 3600 50  0001 C CNN
-F 1 "GND" H 1005 3677 50  0000 C CNN
+F 1 "DP_GND" H 1005 3677 50  0000 C CNN
 F 2 "" H 1000 3850 50  0001 C CNN
 F 3 "" H 1000 3850 50  0001 C CNN
 	1    1000 3850
@@ -529,7 +529,7 @@ USART_TX
 Text Label 2950 4650 2    50   ~ 0
 USART_RX
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E09BA01
 P 1700 7350
 AR Path="/5E09BA01" Ref="#PWR?"  Part="1" 
@@ -537,7 +537,7 @@ AR Path="/5DAEEEF4/5E09BA01" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E09BA01" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E09BA01" Ref="#PWR0191"  Part="1" 
 F 0 "#PWR0191" H 1700 7100 50  0001 C CNN
-F 1 "GND" H 1705 7177 50  0000 C CNN
+F 1 "DP_GND" H 1705 7177 50  0000 C CNN
 F 2 "" H 1700 7350 50  0001 C CNN
 F 3 "" H 1700 7350 50  0001 C CNN
 	1    1700 7350
@@ -579,7 +579,7 @@ F 3 "~" H 3750 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E141D24
 P 3750 7450
 AR Path="/5E141D24" Ref="#PWR?"  Part="1" 
@@ -587,7 +587,7 @@ AR Path="/5DAEEEF4/5E141D24" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E141D24" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E141D24" Ref="#PWR0190"  Part="1" 
 F 0 "#PWR0190" H 3750 7200 50  0001 C CNN
-F 1 "GND" H 3755 7277 50  0000 C CNN
+F 1 "DP_GND" H 3755 7277 50  0000 C CNN
 F 2 "" H 3750 7450 50  0001 C CNN
 F 3 "" H 3750 7450 50  0001 C CNN
 	1    3750 7450
@@ -628,7 +628,7 @@ F 3 "~" H 2750 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E15BA17
 P 2400 3500
 AR Path="/5E15BA17" Ref="#PWR?"  Part="1" 
@@ -636,7 +636,7 @@ AR Path="/5DAEEEF4/5E15BA17" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E15BA17" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E15BA17" Ref="#PWR0181"  Part="1" 
 F 0 "#PWR0181" H 2400 3250 50  0001 C CNN
-F 1 "GND" H 2405 3327 50  0000 C CNN
+F 1 "DP_GND" H 2405 3327 50  0000 C CNN
 F 2 "" H 2400 3500 50  0001 C CNN
 F 3 "" H 2400 3500 50  0001 C CNN
 	1    2400 3500
@@ -704,7 +704,7 @@ F 3 "~" H 3150 6950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Electroencephalograph:DP_GND #PWR?
 U 1 1 5E17610B
 P 3500 7450
 AR Path="/5E17610B" Ref="#PWR?"  Part="1" 
@@ -712,7 +712,7 @@ AR Path="/5DAEEEF4/5E17610B" Ref="#PWR?"  Part="1"
 AR Path="/5DD5C7F6/5E17610B" Ref="#PWR?"  Part="1" 
 AR Path="/5E142744/5E17610B" Ref="#PWR0189"  Part="1" 
 F 0 "#PWR0189" H 3500 7200 50  0001 C CNN
-F 1 "GND" H 3505 7277 50  0000 C CNN
+F 1 "DP_GND" H 3505 7277 50  0000 C CNN
 F 2 "" H 3500 7450 50  0001 C CNN
 F 3 "" H 3500 7450 50  0001 C CNN
 	1    3500 7450
@@ -745,15 +745,16 @@ Text GLabel 2900 4050 0    50   Input ~ 0
 CS
 Text GLabel 4900 3750 2    50   Output ~ 0
 MISO
-$Comp
-L Electroencephalograph:GD25D10BOIGR U11
-U 1 1 5E308455
-P 7950 3000
-F 0 "U11" H 7925 3075 50  0000 C CNN
-F 1 "GD25D10BOIGR" H 7925 2984 50  0000 C CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7950 3000 50  0001 C CNN
-F 3 "" H 7950 3000 50  0001 C CNN
-	1    7950 3000
-	1    0    0    -1  
-$EndComp
+NoConn ~ 4900 4350
+NoConn ~ 4900 4250
+NoConn ~ 4900 3950
+NoConn ~ 4900 3550
+NoConn ~ 4900 3450
+NoConn ~ 4900 3350
+NoConn ~ 4900 3250
+NoConn ~ 4900 3150
+NoConn ~ 2900 4450
+NoConn ~ 2900 4350
+NoConn ~ 2900 4250
+NoConn ~ 2900 4150
 $EndSCHEMATC
