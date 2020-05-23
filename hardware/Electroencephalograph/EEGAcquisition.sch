@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title "EEG analog to digital conversion"
 Date ""
 Rev "1.0"
@@ -1662,8 +1662,8 @@ Text Label 10450 5400 0    50   ~ 0
 OPAMP_MAYBE
 Wire Wire Line
 	2350 5600 2350 5550
-Text Notes 8550 2750 0    50   ~ 0
-TODO: \n1. vrefn to vss?\n2. left clk floating?\n3. drdy?\n4. order tantalum a package cap
+Text Notes 6150 2200 0    79   ~ 16
+TODO: \n1. vrefn to vss?\n2. left clk floating?\n3. drdy?
 $Comp
 L Device:C C?
 U 1 1 5E1B1E29
