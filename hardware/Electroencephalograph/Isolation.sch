@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title "Galvanic isolation"
 Date ""
 Rev "1.0"
@@ -207,33 +207,29 @@ Wire Wire Line
 $Comp
 L Electroencephalograph:A_GND #PWR108
 U 1 1 5E03B175
-P 4900 5400
-F 0 "#PWR108" H 4900 5425 50  0001 C CNN
-F 1 "A_GND" H 4917 5227 50  0000 C CNN
-F 2 "" H 4900 5425 50  0001 C CNN
-F 3 "" H 4900 5425 50  0001 C CNN
-	1    4900 5400
+P 5050 5350
+F 0 "#PWR108" H 5050 5375 50  0001 C CNN
+F 1 "A_GND" H 5067 5177 50  0000 C CNN
+F 2 "" H 5050 5375 50  0001 C CNN
+F 3 "" H 5050 5375 50  0001 C CNN
+	1    5050 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Electroencephalograph:D_GND #PWR109
 U 1 1 5E03B5A4
-P 5700 5400
-F 0 "#PWR109" H 5700 5425 50  0001 C CNN
-F 1 "D_GND" H 5717 5227 50  0000 C CNN
-F 2 "" H 5700 5425 50  0001 C CNN
-F 3 "" H 5700 5425 50  0001 C CNN
-	1    5700 5400
+P 5600 5350
+F 0 "#PWR109" H 5600 5375 50  0001 C CNN
+F 1 "D_GND" H 5617 5177 50  0000 C CNN
+F 2 "" H 5600 5375 50  0001 C CNN
+F 3 "" H 5600 5375 50  0001 C CNN
+	1    5600 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2800 5100 2650 5100
 Wire Wire Line
 	2650 5100 2650 5200
-Wire Wire Line
-	4900 5300 4900 5400
-Wire Wire Line
-	5700 5300 5700 5400
 Wire Wire Line
 	2800 5200 2650 5200
 Wire Wire Line
@@ -242,10 +238,6 @@ Wire Wire Line
 	3600 5200 3750 5200
 Wire Wire Line
 	4700 5200 4700 5150
-Wire Wire Line
-	4700 5200 5050 5200
-Wire Wire Line
-	5050 5200 5050 5300
 Connection ~ 4700 5200
 $Comp
 L Device:L L3
@@ -407,8 +399,6 @@ Wire Wire Line
 Connection ~ 1800 4800
 Wire Wire Line
 	1800 4800 1400 4800
-Wire Wire Line
-	4900 5300 5050 5300
 $Comp
 L Electroencephalograph:DP_GND #PWR177
 U 1 1 5E1125B9
@@ -504,28 +494,6 @@ Text GLabel 5400 2700 2    50   Output ~ 0
 EEG_MOSI
 Text GLabel 5400 2800 2    50   Output ~ 0
 EEG_CS
-$Comp
-L Device:R R?
-U 1 1 5E15FD88
-P 5350 5300
-AR Path="/5E15FD88" Ref="R?"  Part="1" 
-AR Path="/5DF4CFF8/5E15FD88" Ref="R?"  Part="1" 
-AR Path="/5DF61103/5E15FD88" Ref="R?"  Part="1" 
-AR Path="/5DFE0AD6/5E15FD88" Ref="R72"  Part="1" 
-F 0 "R72" V 5557 5300 50  0000 C CNN
-F 1 "0R" V 5466 5300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 5280 5300 50  0001 C CNN
-F 3 "~" H 5350 5300 50  0001 C CNN
-	1    5350 5300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5050 5300 5200 5300
-Connection ~ 5050 5300
-Wire Wire Line
-	5500 5300 5700 5300
-Text Notes 5600 5150 0    50   ~ 0
-TODO: remove the resitor, it's just to avoid kicad mistaking A_GND and D_GND
 $Comp
 L Device:C C?
 U 1 1 5E203FB6
@@ -672,4 +640,57 @@ Wire Wire Line
 Connection ~ 1750 3000
 Wire Wire Line
 	1750 3000 3150 3000
+Wire Wire Line
+	5600 5200 5600 5350
+Wire Wire Line
+	4700 5200 5050 5200
+Wire Wire Line
+	5050 5350 5050 5200
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5ECF772F
+P 2300 4700
+F 0 "#FLG0101" H 2300 4775 50  0001 C CNN
+F 1 "PWR_FLAG" H 2300 4873 50  0000 C CNN
+F 2 "" H 2300 4700 50  0001 C CNN
+F 3 "~" H 2300 4700 50  0001 C CNN
+	1    2300 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4800 2300 4700
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5ED49BA7
+P 4700 4650
+F 0 "#FLG0104" H 4700 4725 50  0001 C CNN
+F 1 "PWR_FLAG" H 4700 4823 50  0000 C CNN
+F 2 "" H 4700 4650 50  0001 C CNN
+F 3 "~" H 4700 4650 50  0001 C CNN
+	1    4700 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4800 4700 4650
+$Comp
+L Device:R R?
+U 1 1 5EC9AC63
+P 5350 5200
+AR Path="/5EC9AC63" Ref="R?"  Part="1" 
+AR Path="/5DAEEEF4/5EC9AC63" Ref="R?"  Part="1" 
+AR Path="/5DD5C7F6/5EC9AC63" Ref="R?"  Part="1" 
+AR Path="/5E142744/5EC9AC63" Ref="R?"  Part="1" 
+AR Path="/5DFE0AD6/5EC9AC63" Ref="0R"  Part="1" 
+F 0 "0R" V 5557 5200 50  0000 C CNN
+F 1 "10k" V 5466 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5280 5200 50  0001 C CNN
+F 3 "~" H 5350 5200 50  0001 C CNN
+	1    5350 5200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5050 5200 5200 5200
+Connection ~ 5050 5200
+Wire Wire Line
+	5500 5200 5600 5200
 $EndSCHEMATC

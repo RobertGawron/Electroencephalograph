@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title "EEG power supply"
 Date ""
 Rev "1.0"
@@ -561,18 +561,16 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5E1AE8F5
-P 4800 5600
+P 5300 5550
 AR Path="/5DF61103/5E1AE8F5" Ref="TP?"  Part="1" 
 AR Path="/5E0992D6/5E1AE8F5" Ref="TP10"  Part="1" 
-F 0 "TP10" H 4742 5626 50  0000 R CNN
-F 1 "TestPoint" H 4742 5717 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5000 5600 50  0001 C CNN
-F 3 "~" H 5000 5600 50  0001 C CNN
-	1    4800 5600
+F 0 "TP10" H 5400 5750 50  0000 R CNN
+F 1 "TestPoint" H 5500 5850 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 5500 5550 50  0001 C CNN
+F 3 "~" H 5500 5550 50  0001 C CNN
+	1    5300 5550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4800 5600 4800 5500
 $Comp
 L Device:L L?
 U 1 1 5DFF5B3E
@@ -784,7 +782,7 @@ Wire Wire Line
 	6500 5500 6950 5500
 Wire Wire Line
 	6500 3850 7000 3850
-Text Notes 4800 6000 0    59   ~ 12
+Text Notes 4800 6150 0    59   ~ 12
 TODO: change regulator to one that accepts negative voltages
 Wire Wire Line
 	2200 2050 2200 1950
@@ -845,8 +843,8 @@ $Comp
 L Electroencephalograph:TPS60403 U10
 U 1 1 5E0F81A7
 P 3700 5400
-F 0 "U10" H 3256 5329 50  0000 R CNN
-F 1 "TPS60403" H 3256 5420 50  0000 R CNN
+F 0 "U10" H 4150 5800 50  0000 C CNN
+F 1 "TPS60403" H 4150 5700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4150 5700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps60402.pdf" H 4150 5700 50  0001 C CNN
 	1    3700 5400
@@ -916,4 +914,32 @@ F 3 "~" H 7000 4100 50  0001 C CNN
 	1    7000 4100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5300 5550 5300 5500
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5ECFE874
+P 4800 5600
+F 0 "#FLG0102" H 4800 5675 50  0001 C CNN
+F 1 "PWR_FLAG" H 4800 5773 50  0000 C CNN
+F 2 "" H 4800 5600 50  0001 C CNN
+F 3 "~" H 4800 5600 50  0001 C CNN
+	1    4800 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5ED23C84
+P 2800 5600
+F 0 "#FLG0103" H 2800 5675 50  0001 C CNN
+F 1 "PWR_FLAG" H 2800 5773 50  0000 C CNN
+F 2 "" H 2800 5600 50  0001 C CNN
+F 3 "~" H 2800 5600 50  0001 C CNN
+	1    2800 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 5600 2800 5500
+Wire Wire Line
+	4800 5500 4800 5600
 $EndSCHEMATC

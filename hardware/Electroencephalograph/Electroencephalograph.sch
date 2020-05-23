@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "Main sheet"
 Date ""
 Rev "1.0"
@@ -55,5 +55,11 @@ S 6350 1850 500  150
 U 5E27E78E
 F0 "ComputerInterface" 50
 F1 "ComputerInterface.sch" 50
+$EndSheet
+$Sheet
+S 5150 2300 500  150 
+U 5EC8DA4D
+F0 "DataProcessingPowerSupply" 50
+F1 "DataProcessingPowerSupply.sch" 50
 $EndSheet
 $EndSCHEMATC
