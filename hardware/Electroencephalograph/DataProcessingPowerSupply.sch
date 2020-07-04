@@ -21,7 +21,7 @@ AR Path="/5E142744/5ECDE4A5" Ref="J?"  Part="1"
 AR Path="/5EC8DA4D/5ECDE4A5" Ref="J6"  Part="1" 
 F 0 "J6" H 2078 1726 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 2078 1635 50  0000 L CNN
-F 2 "" H 2050 1750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2050 1750 50  0001 C CNN
 F 3 "~" H 2050 1750 50  0001 C CNN
 	1    2050 1750
 	-1   0    0    -1  
@@ -136,7 +136,7 @@ Wire Wire Line
 	2850 1650 2850 1550
 Connection ~ 2850 1550
 Text Notes 1400 1150 0    79   ~ 16
-Connector to connect external power supply = 9V
+Connector for external power supply = 9V
 Wire Wire Line
 	3000 3900 3250 3900
 Wire Wire Line
