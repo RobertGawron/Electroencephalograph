@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Electroencephalograph)(type Legacy)(uri ${KIPRJMOD}/Electroencephalograph.lib)(options "")(descr ""))
   (lib (name gd25d10boigr)(type Legacy)(uri ${KIPRJMOD}/gd25d10boigr.lib)(options "")(descr ""))
+  (lib (name ESP8266)(type Legacy)(uri C:/Users/robert/Documents/repos/Electroencephalograph/mechanical/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
 )
