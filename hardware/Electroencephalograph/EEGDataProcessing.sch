@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Electroencephalograph-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -438,7 +437,7 @@ AR Path="/5DD5C7F6/5DC4D139" Ref="R?"  Part="1"
 AR Path="/5E142744/5DC4D139" Ref="R73"  Part="1" 
 F 0 "R73" H 6170 3896 50  0000 L CNN
 F 1 "2k2" H 6170 3805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6030 3850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6030 3850 50  0001 C CNN
 F 3 "~" H 6100 3850 50  0001 C CNN
 	1    6100 3850
 	-1   0    0    -1  
@@ -598,13 +597,13 @@ $EndComp
 $Comp
 L Device:Jumper_NC_Small JP33
 U 1 1 5E15735A
-P 2750 3350
-F 0 "JP33" H 2750 3250 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 2800 3150 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 2750 3350 50  0001 C CNN
-F 3 "~" H 2750 3350 50  0001 C CNN
-	1    2750 3350
-	1    0    0    -1  
+P 2400 2850
+F 0 "JP33" H 2400 2750 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 2450 2650 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 2400 2850 50  0001 C CNN
+F 3 "~" H 2400 2850 50  0001 C CNN
+	1    2400 2850
+	0    -1   1    0   
 $EndComp
 $Comp
 L Electroencephalograph:DP_GND #PWR?
@@ -621,12 +620,6 @@ F 3 "" H 2400 3500 50  0001 C CNN
 	1    2400 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 3350 2850 3350
-Wire Wire Line
-	2650 3350 2400 3350
-Wire Wire Line
-	2400 3350 2400 3500
 Text Label 2950 3150 2    50   ~ 0
 NRST
 $Comp
@@ -808,4 +801,45 @@ Text Notes 1100 6400 0    79   ~ 16
 USART 3V3 logic level
 Text Notes 4200 5750 0    79   ~ 16
 programmer interface
+$Comp
+L Device:R R?
+U 1 1 5F015EE7
+P 2400 3250
+AR Path="/5F015EE7" Ref="R?"  Part="1" 
+AR Path="/5DAEEEF4/5F015EE7" Ref="R?"  Part="1" 
+AR Path="/5DD5C7F6/5F015EE7" Ref="R?"  Part="1" 
+AR Path="/5E142744/5F015EE7" Ref="R99"  Part="1" 
+F 0 "R99" H 2470 3296 50  0000 L CNN
+F 1 "10k" H 2470 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2330 3250 50  0001 C CNN
+F 3 "~" H 2400 3250 50  0001 C CNN
+	1    2400 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Electroencephalograph:DP_VDD #PWR219
+U 1 1 5F01C0B4
+P 2400 2700
+F 0 "#PWR219" H 2400 2825 50  0001 C CNN
+F 1 "DP_VDD" H 2417 2873 50  0000 C CNN
+F 2 "" H 2400 2825 50  0001 C CNN
+F 3 "" H 2400 2825 50  0001 C CNN
+	1    2400 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2700 2400 2750
+Wire Wire Line
+	2400 2950 2400 3050
+Wire Wire Line
+	2400 3400 2400 3500
+Wire Wire Line
+	2500 3350 2500 3050
+Wire Wire Line
+	2500 3050 2400 3050
+Wire Wire Line
+	2500 3350 3100 3350
+Connection ~ 2400 3050
+Wire Wire Line
+	2400 3050 2400 3100
 $EndSCHEMATC

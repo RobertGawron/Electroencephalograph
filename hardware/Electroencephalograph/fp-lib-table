@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Electroencephalograph)(type KiCad)(uri ${KIPRJMOD}/Electroencephalograph.pretty)(options "")(descr ""))
+  (lib (name ESP8266)(type KiCad)(uri ${KIPRJMOD}/../../mechanical/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
 )
