@@ -78,8 +78,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ESP_FLASH_MODE_Pin GPIO_PIN_0
+#define ESP_FLASH_MODE_GPIO_Port GPIOA
+#define ESP_ENABLE_Pin GPIO_PIN_1
+#define ESP_ENABLE_GPIO_Port GPIOA
+#define ESP_TX_Pin GPIO_PIN_2
+#define ESP_TX_GPIO_Port GPIOA
+#define ESP_RX_Pin GPIO_PIN_3
+#define ESP_RX_GPIO_Port GPIOA
 #define EEG_CS_Pin GPIO_PIN_0
 #define EEG_CS_GPIO_Port GPIOB
+#define CS_ESP_Pin GPIO_PIN_1
+#define CS_ESP_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
