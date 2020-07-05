@@ -532,12 +532,12 @@ Wire Wire Line
 Wire Wire Line
 	1700 7200 1800 7200
 Wire Wire Line
-	1700 7000 1800 7000
+	2150 7000 2250 7000
 Wire Wire Line
-	1700 7100 1800 7100
-Text Label 1800 7100 0    50   ~ 0
+	2150 7100 2250 7100
+Text Label 2250 7100 0    50   ~ 0
 USART_TX
-Text Label 1800 7000 0    50   ~ 0
+Text Label 2250 7000 0    50   ~ 0
 USART_RX
 Wire Wire Line
 	2900 4450 3100 4450
@@ -850,4 +850,40 @@ Text GLabel 7850 5100 1    50   Input ~ 0
 ESP_TX
 Text GLabel 7950 5100 1    50   Input ~ 0
 ESP_RX
+Text GLabel 7500 4350 2    50   Input ~ 0
+CS_ESP
+$Comp
+L Device:R R?
+U 1 1 5F06BA33
+P 2000 7000
+AR Path="/5F06BA33" Ref="R?"  Part="1" 
+AR Path="/5DAEEEF4/5F06BA33" Ref="R?"  Part="1" 
+AR Path="/5DD5C7F6/5F06BA33" Ref="R?"  Part="1" 
+AR Path="/5E142744/5F06BA33" Ref="R111"  Part="1" 
+F 0 "R111" V 2207 7000 50  0000 C CNN
+F 1 "10R" V 2116 7000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1930 7000 50  0001 C CNN
+F 3 "~" H 2000 7000 50  0001 C CNN
+	1    2000 7000
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F06BF3F
+P 2000 7100
+AR Path="/5F06BF3F" Ref="R?"  Part="1" 
+AR Path="/5DAEEEF4/5F06BF3F" Ref="R?"  Part="1" 
+AR Path="/5DD5C7F6/5F06BF3F" Ref="R?"  Part="1" 
+AR Path="/5E142744/5F06BF3F" Ref="R112"  Part="1" 
+F 0 "R112" V 1885 7100 50  0000 C CNN
+F 1 "10R" V 1794 7100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1930 7100 50  0001 C CNN
+F 3 "~" H 2000 7100 50  0001 C CNN
+	1    2000 7100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1700 7000 1850 7000
+Wire Wire Line
+	1700 7100 1850 7100
 $EndSCHEMATC
