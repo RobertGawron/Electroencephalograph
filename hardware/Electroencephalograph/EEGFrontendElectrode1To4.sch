@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "Input protection for body connected electrodes (part1)"
 Date ""
 Rev "1.0"

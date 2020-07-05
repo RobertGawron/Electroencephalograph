@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 10
 Title "EEG signal processing"
 Date ""
 Rev "1.0"
@@ -842,4 +842,12 @@ Wire Wire Line
 Connection ~ 2400 3050
 Wire Wire Line
 	2400 3050 2400 3100
+Text GLabel 8100 4700 0    50   Input ~ 0
+ESP_ENABLE
+Text GLabel 7550 4500 2    50   Input ~ 0
+ESP_FLASH_MODE
+Text GLabel 7850 5100 1    50   Input ~ 0
+ESP_TX
+Text GLabel 7950 5100 1    50   Input ~ 0
+ESP_RX
 $EndSCHEMATC
