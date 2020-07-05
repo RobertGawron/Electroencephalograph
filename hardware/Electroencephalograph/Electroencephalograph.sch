@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Main sheet"
 Date ""
 Rev "1.0"
@@ -22,26 +22,26 @@ $EndSheet
 $Sheet
 S 2900 1850 500  150 
 U 5DF61103
-F0 "EEGAcquisition" 50
-F1 "EEGAcquisition.sch" 50
+F0 "Acquisition" 50
+F1 "Acquisition.sch" 50
 $EndSheet
 $Sheet
-S 5150 1850 500  150 
+S 5400 1700 500  150 
 U 5E142744
-F0 "EEGDataProcessing" 50
-F1 "EEGDataProcessing.sch" 50
+F0 "DataProcessing" 50
+F1 "DataProcessing.sch" 50
 $EndSheet
 $Sheet
-S 4050 1600 500  150 
+S 3800 1650 500  150 
 U 5DFE0AD6
 F0 "Isolation" 50
 F1 "Isolation.sch" 50
 $EndSheet
 $Sheet
-S 4050 2100 500  150 
+S 3800 2200 500  150 
 U 5E0992D6
-F0 "EEGPowerSupply" 50
-F1 "EEGPowerSupply.sch" 50
+F0 "AcquisitionPowerSupply" 50
+F1 "AcquisitionPowerSupply.sch" 50
 $EndSheet
 $Sheet
 S 1350 2200 500  150 
@@ -50,15 +50,21 @@ F0 "EEGFrontendElectrode5To8" 50
 F1 "EEGFrontendElectrode5To8.sch" 50
 $EndSheet
 $Sheet
-S 6350 1850 500  150 
+S 7100 1750 500  150 
 U 5E27E78E
-F0 "ComputerInterface" 50
-F1 "ComputerInterface.sch" 50
+F0 "USBInterface" 50
+F1 "USBInterface.sch" 50
 $EndSheet
 $Sheet
-S 5150 2300 500  150 
+S 5400 2150 500  150 
 U 5EC8DA4D
 F0 "DataProcessingPowerSupply" 50
 F1 "DataProcessingPowerSupply.sch" 50
+$EndSheet
+$Sheet
+S 7100 2200 500  150 
+U 5F01FBEA
+F0 "WiFiInterface" 50
+F1 "WiFiInterface.sch" 50
 $EndSheet
 $EndSCHEMATC

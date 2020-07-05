@@ -309,14 +309,24 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(EEG_CS_GPIO_Port, EEG_CS_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, ESP_FLASH_MODE_Pin|ESP_ENABLE_Pin|ESP_TX_Pin|ESP_RX_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : EEG_CS_Pin */
-  GPIO_InitStruct.Pin = EEG_CS_Pin;
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, EEG_CS_Pin|CS_ESP_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : ESP_FLASH_MODE_Pin ESP_ENABLE_Pin ESP_TX_Pin ESP_RX_Pin */
+  GPIO_InitStruct.Pin = ESP_FLASH_MODE_Pin|ESP_ENABLE_Pin|ESP_TX_Pin|ESP_RX_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(EEG_CS_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : EEG_CS_Pin CS_ESP_Pin */
+  GPIO_InitStruct.Pin = EEG_CS_Pin|CS_ESP_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
 
