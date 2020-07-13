@@ -451,8 +451,6 @@ $EndComp
 Wire Wire Line
 	4550 3550 4200 3550
 Wire Wire Line
-	4550 3450 4400 3450
-Wire Wire Line
 	4200 3850 4550 3850
 Wire Wire Line
 	4200 3750 4550 3750
@@ -472,8 +470,6 @@ Wire Wire Line
 	4550 4250 4200 4250
 Wire Wire Line
 	4550 3950 4200 3950
-Wire Wire Line
-	4200 3350 4300 3350
 Wire Wire Line
 	4200 4450 4550 4450
 Wire Wire Line
@@ -1122,40 +1118,8 @@ F 3 "~" H 4750 4650 50  0001 C CNN
 	1    4550 4650
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:TestPoint TP20
-U 1 1 5F1139E2
-P 4300 4850
-F 0 "TP20" V 4300 5050 50  0000 L CNN
-F 1 "TestPoint" V 4300 5250 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4500 4850 50  0001 C CNN
-F 3 "~" H 4500 4850 50  0001 C CNN
-	1    4300 4850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4200 4650 4550 4650
-$Comp
-L Connector:TestPoint TP21
-U 1 1 5F11CFF6
-P 4400 4850
-F 0 "TP21" V 4400 5050 50  0000 L CNN
-F 1 "TestPoint" V 4400 5250 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4600 4850 50  0001 C CNN
-F 3 "~" H 4600 4850 50  0001 C CNN
-	1    4400 4850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4300 4850 4300 3350
-Connection ~ 4300 3350
-Wire Wire Line
-	4300 3350 4550 3350
-Wire Wire Line
-	4400 4850 4400 3450
-Connection ~ 4400 3450
-Wire Wire Line
-	4400 3450 4200 3450
 $Comp
 L Connector:TestPoint TP28
 U 1 1 5F0DAD75
@@ -1169,4 +1133,8 @@ F 3 "~" H 6400 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2700 4050 3100 4050
+Wire Wire Line
+	4200 3350 4550 3350
+Wire Wire Line
+	4200 3450 4550 3450
 $EndSCHEMATC

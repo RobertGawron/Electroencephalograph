@@ -115,25 +115,9 @@ $EndComp
 Wire Wire Line
 	9550 3150 9450 3150
 Wire Wire Line
-	9450 3150 9450 3050
-Wire Wire Line
 	9450 3450 9450 3500
 Wire Wire Line
 	9550 3450 9450 3450
-$Comp
-L Electroencephalograph:DP_VDD #PWR?
-U 1 1 5F02CA0E
-P 9450 3050
-AR Path="/5E142744/5F02CA0E" Ref="#PWR?"  Part="1" 
-AR Path="/5E27E78E/5F02CA0E" Ref="#PWR?"  Part="1" 
-AR Path="/5F01FBEA/5F02CA0E" Ref="#PWR230"  Part="1" 
-F 0 "#PWR230" H 9450 3175 50  0001 C CNN
-F 1 "DP_VDD" H 9467 3223 50  0000 C CNN
-F 2 "" H 9450 3175 50  0001 C CNN
-F 3 "" H 9450 3175 50  0001 C CNN
-	1    9450 3050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 2700 4900 2850
 Wire Wire Line
@@ -680,4 +664,9 @@ Wire Wire Line
 Connection ~ 7900 3650
 Wire Wire Line
 	7900 3650 8050 3650
+Wire Wire Line
+	7900 2700 9450 2700
+Wire Wire Line
+	9450 2700 9450 3150
+Connection ~ 7900 2700
 $EndSCHEMATC
