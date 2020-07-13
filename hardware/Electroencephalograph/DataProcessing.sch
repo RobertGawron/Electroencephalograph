@@ -71,7 +71,6 @@ Wire Wire Line
 Connection ~ 3650 4900
 Wire Wire Line
 	3650 4900 3700 4900
-NoConn ~ 4200 4650
 Wire Wire Line
 	4050 2700 4050 2650
 $Comp
@@ -404,91 +403,83 @@ F 3 "~" H 1300 3950 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3100 4050 2900 4050
+	3100 4150 2850 4150
 Wire Wire Line
-	3100 4150 2900 4150
+	5500 4000 5500 4150
 Wire Wire Line
-	6100 4150 6600 4150
+	5850 4050 6200 4050
 Wire Wire Line
-	6100 4000 6100 4150
-Wire Wire Line
-	6450 4050 6600 4050
-Wire Wire Line
-	6450 4000 6450 4050
-Text GLabel 6600 4050 2    50   Input ~ 0
+	5850 4000 5850 4050
+Text GLabel 6400 4050 2    50   Input ~ 0
 SCL
 Wire Wire Line
-	6100 3700 6100 3600
+	5500 3700 5500 3600
 Wire Wire Line
-	6450 3700 6450 3600
-Text GLabel 6600 4150 2    50   BiDi ~ 0
+	5850 3700 5850 3600
+Text GLabel 6400 4150 2    50   BiDi ~ 0
 SDA
 $Comp
 L Device:R R?
 U 1 1 5DC4D139
-P 6100 3850
+P 5500 3850
 AR Path="/5DC4D139" Ref="R?"  Part="1" 
 AR Path="/5DAEEEF4/5DC4D139" Ref="R?"  Part="1" 
 AR Path="/5DD5C7F6/5DC4D139" Ref="R?"  Part="1" 
 AR Path="/5E142744/5DC4D139" Ref="R73"  Part="1" 
-F 0 "R73" H 6170 3896 50  0000 L CNN
-F 1 "2k2" H 6170 3805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6030 3850 50  0001 C CNN
-F 3 "~" H 6100 3850 50  0001 C CNN
-	1    6100 3850
+F 0 "R73" H 5570 3896 50  0000 L CNN
+F 1 "2k2" H 5570 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 3850 50  0001 C CNN
+F 3 "~" H 5500 3850 50  0001 C CNN
+	1    5500 3850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5DC4CCFF
-P 6450 3850
+P 5850 3850
 AR Path="/5DC4CCFF" Ref="R?"  Part="1" 
 AR Path="/5DAEEEF4/5DC4CCFF" Ref="R?"  Part="1" 
 AR Path="/5DD5C7F6/5DC4CCFF" Ref="R?"  Part="1" 
 AR Path="/5E142744/5DC4CCFF" Ref="R74"  Part="1" 
-F 0 "R74" H 6520 3896 50  0000 L CNN
-F 1 "2k2" H 6520 3805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6380 3850 50  0001 C CNN
-F 3 "~" H 6450 3850 50  0001 C CNN
-	1    6450 3850
+F 0 "R74" H 5920 3896 50  0000 L CNN
+F 1 "2k2" H 5920 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 3850 50  0001 C CNN
+F 3 "~" H 5850 3850 50  0001 C CNN
+	1    5850 3850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 3550 4200 3550
+	4550 3550 4200 3550
 Wire Wire Line
-	4900 3450 4200 3450
+	4200 3850 4550 3850
 Wire Wire Line
-	4200 3850 4900 3850
+	4200 3750 4550 3750
 Wire Wire Line
-	4200 3750 4900 3750
+	4200 3650 4550 3650
 Wire Wire Line
-	4200 3650 4900 3650
+	4200 4550 4550 4550
+Connection ~ 5850 4050
 Wire Wire Line
-	4200 4550 4900 4550
-Connection ~ 6450 4050
+	4200 4050 5850 4050
+Connection ~ 5500 4150
 Wire Wire Line
-	4200 4050 6450 4050
-Connection ~ 6100 4150
+	4200 4150 5500 4150
 Wire Wire Line
-	4200 4150 6100 4150
+	4550 4350 4200 4350
 Wire Wire Line
-	4900 4350 4200 4350
+	4550 4250 4200 4250
 Wire Wire Line
-	4900 4250 4200 4250
+	4550 3950 4200 3950
 Wire Wire Line
-	4900 3950 4200 3950
+	4200 4450 4550 4450
 Wire Wire Line
-	4200 3350 4900 3350
+	4550 3150 4200 3150
 Wire Wire Line
-	4200 4450 4900 4450
+	4550 3250 4200 3250
 Wire Wire Line
-	4900 3150 4200 3150
+	3100 4550 2700 4550
 Wire Wire Line
-	4900 3250 4200 3250
-Wire Wire Line
-	3100 4550 2950 4550
-Wire Wire Line
-	3100 4650 2950 4650
+	3100 4650 2700 4650
 $Comp
 L Connector:Conn_01x04_Female J4
 U 1 1 5E096F60
@@ -500,9 +491,9 @@ F 3 "~" H 1500 7100 50  0001 C CNN
 	1    1500 7100
 	-1   0    0    1   
 $EndComp
-Text Label 2950 4550 2    50   ~ 0
+Text Label 2700 4550 2    50   ~ 0
 USART_TX
-Text Label 2950 4650 2    50   ~ 0
+Text Label 2700 4650 2    50   ~ 0
 USART_RX
 $Comp
 L Electroencephalograph:DP_GND #PWR?
@@ -646,9 +637,9 @@ F 3 "~" H 5050 6700 50  0001 C CNN
 	1    5050 6700
 	0    1    -1   0   
 $EndComp
-Text Label 4900 4450 0    50   ~ 0
+Text Label 4550 4450 0    50   ~ 0
 SWDIO
-Text Label 4900 4550 0    50   ~ 0
+Text Label 4550 4550 0    50   ~ 0
 SWCLK
 Text Label 5250 6700 0    50   ~ 0
 SWCLK
@@ -701,18 +692,14 @@ Wire Wire Line
 	4650 6200 4650 6100
 Wire Wire Line
 	4150 6900 4650 6900
-Text GLabel 4900 3650 2    50   Input ~ 0
+Text GLabel 4550 3650 2    50   Input ~ 0
 SCK
-Text GLabel 4900 3850 2    50   Input ~ 0
+Text GLabel 4550 3850 2    50   Input ~ 0
 MOSI
-Text GLabel 2900 4050 0    50   Output ~ 0
+Text GLabel 2700 4050 0    50   Output ~ 0
 CS
-Text GLabel 4900 3750 2    50   Output ~ 0
+Text GLabel 4550 3750 2    50   Output ~ 0
 MISO
-NoConn ~ 4900 4350
-NoConn ~ 4900 4250
-NoConn ~ 4900 3950
-NoConn ~ 4900 3550
 $Comp
 L MCU_ST_STM32F0:STM32F030K6Tx U3
 U 1 1 5DC98A9F
@@ -742,23 +729,23 @@ Wire Wire Line
 $Comp
 L Electroencephalograph:DP_VDD #PWR216
 U 1 1 5ECAAD19
-P 6100 3600
-F 0 "#PWR216" H 6100 3725 50  0001 C CNN
-F 1 "DP_VDD" H 6117 3773 50  0000 C CNN
-F 2 "" H 6100 3725 50  0001 C CNN
-F 3 "" H 6100 3725 50  0001 C CNN
-	1    6100 3600
+P 5500 3600
+F 0 "#PWR216" H 5500 3725 50  0001 C CNN
+F 1 "DP_VDD" H 5517 3773 50  0000 C CNN
+F 2 "" H 5500 3725 50  0001 C CNN
+F 3 "" H 5500 3725 50  0001 C CNN
+	1    5500 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Electroencephalograph:DP_VDD #PWR218
 U 1 1 5ECAAFA5
-P 6450 3600
-F 0 "#PWR218" H 6450 3725 50  0001 C CNN
-F 1 "DP_VDD" H 6467 3773 50  0000 C CNN
-F 2 "" H 6450 3725 50  0001 C CNN
-F 3 "" H 6450 3725 50  0001 C CNN
-	1    6450 3600
+P 5850 3600
+F 0 "#PWR218" H 5850 3725 50  0001 C CNN
+F 1 "DP_VDD" H 5867 3773 50  0000 C CNN
+F 2 "" H 5850 3725 50  0001 C CNN
+F 3 "" H 5850 3725 50  0001 C CNN
+	1    5850 3600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -828,15 +815,15 @@ Wire Wire Line
 Connection ~ 2400 3050
 Wire Wire Line
 	2400 3050 2400 3100
-Text GLabel 4900 3250 2    50   Output ~ 0
+Text GLabel 4550 3250 2    50   Output ~ 0
 ESP_ENABLE
-Text GLabel 4900 3150 2    50   Output ~ 0
+Text GLabel 4550 3150 2    50   Output ~ 0
 ESP_FLASH_MODE
-Text GLabel 4900 3350 2    50   Input ~ 0
+Text GLabel 4550 3350 2    50   Input ~ 0
 ESP_TX
-Text GLabel 4900 3450 2    50   Input ~ 0
+Text GLabel 4550 3450 2    50   Input ~ 0
 ESP_RX
-Text GLabel 2900 4150 0    50   Output ~ 0
+Text GLabel 2700 4150 0    50   Output ~ 0
 CS_ESP
 $Comp
 L Device:R R?
@@ -1037,4 +1024,117 @@ Wire Wire Line
 	2250 4450 2250 4700
 Wire Wire Line
 	2250 4450 3100 4450
+$Comp
+L Connector:TestPoint TP27
+U 1 1 5F0D57FA
+P 6100 4000
+F 0 "TP27" V 6100 4200 50  0000 L CNN
+F 1 "TestPoint" V 6100 4400 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6300 4000 50  0001 C CNN
+F 3 "~" H 6300 4000 50  0001 C CNN
+	1    6100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4000 6100 4150
+Wire Wire Line
+	5500 4150 6100 4150
+Connection ~ 6100 4150
+Wire Wire Line
+	6100 4150 6400 4150
+Wire Wire Line
+	6200 4000 6200 4050
+Connection ~ 6200 4050
+Wire Wire Line
+	6200 4050 6400 4050
+$Comp
+L Connector:TestPoint TP25
+U 1 1 5F0F4B62
+P 4550 4350
+F 0 "TP25" V 4550 4550 50  0000 L CNN
+F 1 "TestPoint" V 4550 4750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4750 4350 50  0001 C CNN
+F 3 "~" H 4750 4350 50  0001 C CNN
+	1    4550 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP24
+U 1 1 5F0F5518
+P 4550 4250
+F 0 "TP24" V 4550 4450 50  0000 L CNN
+F 1 "TestPoint" V 4550 4650 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4750 4250 50  0001 C CNN
+F 3 "~" H 4750 4250 50  0001 C CNN
+	1    4550 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 5F0F5A50
+P 4550 3950
+F 0 "TP23" V 4550 4150 50  0000 L CNN
+F 1 "TestPoint" V 4550 4350 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4750 3950 50  0001 C CNN
+F 3 "~" H 4750 3950 50  0001 C CNN
+	1    4550 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP22
+U 1 1 5F0F5DA6
+P 4550 3550
+F 0 "TP22" V 4550 3750 50  0000 L CNN
+F 1 "TestPoint" V 4550 3950 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4750 3550 50  0001 C CNN
+F 3 "~" H 4750 3550 50  0001 C CNN
+	1    4550 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 5F10493F
+P 2850 4800
+F 0 "TP18" V 2850 5000 50  0000 L CNN
+F 1 "TestPoint" V 2850 5200 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3050 4800 50  0001 C CNN
+F 3 "~" H 3050 4800 50  0001 C CNN
+	1    2850 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 4800 2850 4150
+Connection ~ 2850 4150
+Wire Wire Line
+	2850 4150 2700 4150
+$Comp
+L Connector:TestPoint TP26
+U 1 1 5F1139DC
+P 4550 4650
+F 0 "TP26" V 4550 4850 50  0000 L CNN
+F 1 "TestPoint" V 4550 5050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4750 4650 50  0001 C CNN
+F 3 "~" H 4750 4650 50  0001 C CNN
+	1    4550 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4650 4550 4650
+$Comp
+L Connector:TestPoint TP28
+U 1 1 5F0DAD75
+P 6200 4000
+F 0 "TP28" V 6200 4200 50  0000 L CNN
+F 1 "TestPoint" V 6200 4400 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6400 4000 50  0001 C CNN
+F 3 "~" H 6400 4000 50  0001 C CNN
+	1    6200 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4050 3100 4050
+Wire Wire Line
+	4200 3350 4550 3350
+Wire Wire Line
+	4200 3450 4550 3450
 $EndSCHEMATC
