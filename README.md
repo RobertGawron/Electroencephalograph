@@ -1,6 +1,10 @@
 # Electroencephalograph
 
+[![Docs Generation](https://github.com/RobertGawron/Electroencephalograph/workflows/Docs%20Generation/badge.svg)](https://github.com/RobertGawron/Electroencephalograph/actions?query=workflow%3A%22Docs+Generation%22)
+
+
 **This project is unfinished.**
+
 
 ## Summary
 
@@ -10,19 +14,21 @@ This project is based on a single chip that integrates all EEG acquisition, this
 
 ![render of the device](https://raw.githubusercontent.com/RobertGawron/Electroencephalograph/master/Documentation/Pictures/render_14_07_2020.png)
 
+
 ## System architecture
 
-![architecture](https://raw.githubusercontent.com/RobertGawron/Electroencephalograph/master/Documentation/Diagrams/ArchitectureOverview-1.png)
-
+<img src="./Documentation/Diagrams/ArchitectureOverview.svg"  width="100%">
 
 
 ## Hardware
 
 Hardware was done using KiCAD.
 
+
 ## Software
 
 Software part is to be determinated.
+
 
 # Hazards
 
