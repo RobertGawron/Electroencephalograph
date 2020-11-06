@@ -9,7 +9,7 @@ __Visual Studio Code__ is used as IDE.
 
 1. Install __Visual Studio Code__.
 1. Install __Rust__.
-2. Install __OpenOCD__, if on Windows then add it to Path enviroment variable.
+2. Install __OpenOCD__, if on Windows then add it to Path environment variable.
 3. in command line in Software/Firmware/NUCLEO-F091RC directory run:
 
 ```rustup target add thumbv6m-none-eabi```
