@@ -25,6 +25,11 @@ K charge pump
 F http://www.ti.com/lit/ds/symlink/tps60402.pdf
 $ENDCMP
 #
+$CMP TPS72325DBVT
+D LDO Voltage Regulators 200mA Low Noise High-PSRR
+F https://www.ti.com/lit/ds/symlink/tps723.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1619345888629&ref_url=https%253A%252F%252Fwww.mouser.fr%252F
+$ENDCMP
+#
 $CMP TPS7A20
 D Ultra-Low-Noise, Low-IQ, High PSRR LDO
 F https://www.ti.com/lit/ds/symlink/tps7a20.pdf?ts=1618746541068&ref_url=https%253A%252F%252Fwww.mouser.fr%252F
