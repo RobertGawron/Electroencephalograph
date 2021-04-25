@@ -5,11 +5,6 @@ D Low-Power, 8-Channel, 24-Bit Analog Front-End for Biopotential Measurements
 K EEG
 $ENDCMP
 #
-$CMP GD25D10BOIGR
-D Serial flash
-K  Serial flash
-$ENDCMP
-#
 $CMP OPA350
 D OPAx350 High-Speed, Single-Supply, Rail-to-Rail Operational Amplifiers MicroAmplifier
 K http://www.ti.com/lit/ds/symlink/opa350.pdf
@@ -28,6 +23,21 @@ $CMP TPS60403
 D Unregulated 60-mA Charge Pump Voltage Inverter
 K charge pump
 F http://www.ti.com/lit/ds/symlink/tps60402.pdf
+$ENDCMP
+#
+$CMP TPS72325DBVT
+D LDO Voltage Regulators 200mA Low Noise High-PSRR
+F https://www.ti.com/lit/ds/symlink/tps723.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1619345888629&ref_url=https%253A%252F%252Fwww.mouser.fr%252F
+$ENDCMP
+#
+$CMP TPS7A20
+D Ultra-Low-Noise, Low-IQ, High PSRR LDO
+F https://www.ti.com/lit/ds/symlink/tps7a20.pdf?ts=1618746541068&ref_url=https%253A%252F%252Fwww.mouser.fr%252F
+$ENDCMP
+#
+$CMP TPS7A3901DSCR
+D Dual LDO with low noise and low PSRR
+F https://www.ti.com/lit/ds/symlink/tps7a39.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.fr%2F&distId=26
 $ENDCMP
 #
 #End Doc Library
