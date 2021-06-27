@@ -14,15 +14,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_B_Micro J?
+L Electroencephalograph-rescue:USB_B_Micro-Connector J?
 U 1 1 5DDD73C9
 P 3200 3100
 AR Path="/5DD5C7F6/5DDD73C9" Ref="J?"  Part="1" 
 AR Path="/5DD5CD1D/5DDD73C9" Ref="J?"  Part="1" 
 AR Path="/5E27E78E/5DDD73C9" Ref="J5"  Part="1" 
+AR Path="/5DDD73C9" Ref="J5"  Part="1" 
 F 0 "J5" H 3257 3567 50  0000 C CNN
 F 1 "USB_B_Micro" H 3257 3476 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 3350 3050 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3350 3050 50  0001 C CNN
 F 3 "~" H 3350 3050 50  0001 C CNN
 	1    3200 3100
 	1    0    0    -1  
