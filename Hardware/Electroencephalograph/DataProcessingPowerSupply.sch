@@ -40,7 +40,7 @@ F 3 "" H 2550 2050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:L78L33_SO8 U11
+L Electroencephalograph-rescue:L78L33_SO8-Regulator_Linear U11
 U 1 1 5ECE4DAC
 P 2700 3900
 F 0 "U11" H 2700 4142 50  0000 C CNN

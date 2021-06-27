@@ -55,17 +55,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 6500 5200 6450
 $Comp
-L Amplifier_Operational:OPA330xxD U2
-U 1 1 5DF9ACC1
-P 1600 1450
-F 0 "U2" H 1800 1800 50  0000 L CNN
-F 1 "OPA330xxD" H 1650 1700 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1500 1250 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa330.pdf" H 1750 1600 50  0001 C CNN
-	1    1600 1450
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 5DF9EF33
 P 1950 1000
@@ -2079,4 +2068,16 @@ F 3 "~" H 4700 3100 50  0001 C CNN
 	1    4500 3100
 	1    0    0    -1  
 $EndComp
+$Comp
+L Amplifier_Operational:OPA330xxDBV U2
+U 1 1 60DAF198
+P 1600 1450
+F 0 "U2" H 1800 1850 50  0000 C CNN
+F 1 "OPA330xxDBV" H 1800 1750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1500 1250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa330.pdf" H 1600 1650 50  0001 C CNN
+	1    1600 1450
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 6150 4950
 $EndSCHEMATC
